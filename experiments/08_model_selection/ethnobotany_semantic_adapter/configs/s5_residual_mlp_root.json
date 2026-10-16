@@ -1,0 +1,37 @@
+{
+  "schema": "astra-ethnobotany-refined-candidate-config/v1",
+  "config": {
+    "id": "s5_residual_mlp_root",
+    "stage_id": "S5_semantic_adapter_architecture",
+    "candidate_value": "residual_mlp",
+    "chain_index": 8,
+    "incumbent_id": "s4a_linear64_root",
+    "base_config_id": "s1_c0_legacy_epoch_grid"
+  },
+  "training": {
+    "epochs": 200,
+    "checkpoint_epochs": [30, 60, 100, 200],
+    "batch_size": 1000,
+    "learning_rate": 0.0001,
+    "embedding_dimension": 64,
+    "reg_u": 0.001,
+    "text_fusion_alpha": 1.0
+  },
+  "model_options": {
+    "astra.n_layers": 5,
+    "astra.loss.kind": "legacy",
+    "astra.loss.reduction": "sum",
+    "astra.grad.clip_value": 10.0,
+    "astra.grad.clip_norm": 0.5,
+    "astra.protein_gate": false,
+    "astra.dead_variables": "preserve",
+    "astra.clique.sampling": "legacy_prefix",
+    "astra.clique.max_pairs_per_hyperedge": 100,
+    "astra.clique.max_directed_edges": 200000,
+    "astra.semantic.adapter": "residual_mlp",
+    "astra.semantic.input_dim": 64,
+    "astra.semantic.freeze_input": false,
+    "astra.semantic.mlp_hidden_dim": 32,
+    "astra.training.trace_gradients": true
+  }
+}

@@ -1,0 +1,15 @@
+Generate a scientifically precise description of the medicinal herb [Herb]. Include:
+
+1. Botanical identity, medicinal part, and major intrinsic pharmacognostic characteristics when known.
+2. Three to five representative phytochemical constituents or chemical classes when established.
+3. Molecular targets, biochemical processes, or signaling pathways influenced by those constituents, without connecting them to any named disease or clinical indication.
+
+Strict exclusion rules:
+- Do not name diseases, disorders, syndromes, symptoms, or clinical indications.
+- Do not state or imply that the herb prevents, treats, manages, or is associated with any disease.
+- Do not infer missing facts and do not cite databases.
+
+Format requirements:
+- One cohesive paragraph of 150–200 English words.
+- Academic and cautious wording.
+- Use only intrinsic botanical, chemical, and molecular information.

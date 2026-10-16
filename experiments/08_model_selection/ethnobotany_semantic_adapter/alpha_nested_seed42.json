@@ -1,0 +1,32 @@
+{
+  "schema": "astra-ethnobotany-alpha-plan/v1",
+  "dataset": "ethnobotany",
+  "seed": 42,
+  "semantic_condition": "ethnobotany_qwen_llm_clean_v1/final_bundle",
+  "protocol_manifest": "outputs/fair_protocols/ethnobotany_seed42_cpfix_20261007/manifest.json",
+  "protocol_manifest_sha256": "1c57270f9cbaa5f2ec0e7bb22b7e9471a0bf214b68a0ca9fa12da941ec6a080f",
+  "feature_bundle": "outputs/feature_rebuild/ethnobotany_qwen_llm_clean_v1/final_bundle",
+  "feature_bundle_manifest_sha256": "be6c35a443c2983b096bae6b3284092e76e81f4311fcc87f817b01010cefe3da",
+  "output_root": "outputs/fair_runs/ethnobotany_seed42_cpfix_qwen_llm_clean_alpha_nested_v1",
+  "device_policy": "cuda",
+  "max_parallel": 2,
+  "cuda_devices": [0, 1],
+  "device_assignment": "outer fold n -> cuda_devices[(n-1) mod 2]; all candidates and the selected rerun stay on that device",
+  "tensorflow_library_policy": "prepend sys.prefix/lib to LD_LIBRARY_PATH before every TensorFlow subprocess",
+  "candidate_alphas": [0.0, 0.25, 0.5, 0.75, 1.0],
+  "outer_folds": [1, 2, 3, 4, 5],
+  "selection_scope": "independent within each outer fold",
+  "selection_metric": "inner-validation trapezoidal AUPRC",
+  "selection_tie_break": "lowest alpha",
+  "f1_threshold_rule": "maximum inner-validation F1 over 100 thresholds; lowest-threshold tie break",
+  "training_budget": {
+    "epochs": 30,
+    "batch_size": 1000,
+    "learning_rate": 0.0001,
+    "embedding_dimension": 64,
+    "reg_u": 0.001
+  },
+  "candidate_test_policy": "no outer-test prediction or metric may be materialised",
+  "selected_test_policy": "freeze all five fold decisions first; then evaluate exactly one selected model per outer fold",
+  "historical_outer_test_context": "The same seed-42 outer folds already have a pre-existing alpha=1 baseline result. This selector never reads those scores, but these folds are not a pristine previously unseen holdout."
+}

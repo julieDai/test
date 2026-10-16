@@ -1,0 +1,15 @@
+Generate a scientifically precise description of the disease [Disease] based on available pharmacological and biomedical data. Include:
+Key molecular targets (proteins/genes) implicated in the disease pathology, and their roles in relevant signaling pathways (e.g., "PPARG, involved in insulin sensitivity regulation via adipocyte differentiation").
+Bioactive compounds (list 3–5 primary compounds if available) that have been demonstrated to modulate these targets, specifying the nature of modulation (e.g., agonist, inhibitor).
+Herbal sources (traditional medicinal herbs) that contain these compounds, thereby establishing a mechanistic link between the disease and these botanicals.
+Format requirements:
+Single cohesive paragraph (150–200 words)
+Logical flow: Disease targets/pathways → Active compounds → Associated herbs
+Academic English style
+Guidelines:
+Prioritize established pharmacological and phytochemical data when available.
+If partial data exists (e.g., only some targets or compounds), use what is available.
+Do NOT mention any specific database names in the output description.
+Ensure the description remains scientifically grounded and avoids overgeneralization.
+Example format:
+[Disease] pathophysiology is closely linked to the dysregulation of [Target1], [Target2], and components of the [Pathway] signaling axis. [Target1] (gene: [Gene1]) modulates [biological process], while [Target2] influences [Pathway2] to affect disease progression. These targets can be modulated by specific bioactive compounds: [Compound1] acts as an [agonist/inhibitor] of [Target1], and [Compound2] interacts with [Target2] to regulate [Pathway2]. [Compound1] is predominantly found in botanicals such as [Herb1] and [Herb2], whereas [Compound2] is a key constituent of [Herb3]. Additionally, [Compound3] from [Herb4] has been shown to modulate [Target3], which plays a role in [related mechanism]. The convergence of these molecular interactions provides a pharmacological basis for the traditional use of these herbs in managing [Disease] and highlights potential targets for therapeutic intervention.

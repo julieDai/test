@@ -1,0 +1,15 @@
+Generate a scientifically precise description of the biomedical entity labelled [Disease]. First identify whether the label denotes a disease, anatomical structure, physiological measurement, protein, chemical, or another biomedical concept. Do not describe a non-disease entity as though it were a disease. Include:
+
+1. A concise definition appropriate to the actual entity type.
+2. For a disease, its main pathological processes, molecular targets, genes, and signaling pathways; for another entity type, its established biological role and context.
+3. Relevant cellular or physiological mechanisms, using cautious language when evidence is incomplete.
+
+Strict exclusion rules:
+- Do not name medicinal herbs, botanicals, traditional medicines, herbal formulas, or plant sources.
+- Do not name phytochemical compounds for the purpose of linking the disease to a herb.
+- Do not recommend treatments and do not cite databases.
+
+Format requirements:
+- One cohesive paragraph of 150–200 English words.
+- Academic and cautious wording.
+- Describe only the named biomedical entity and its intrinsic biology.

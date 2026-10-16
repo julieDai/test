@@ -1,0 +1,13 @@
+{
+  "schema": "herbhg-protocol-template/v1",
+  "seed": 42,
+  "outer_folds": 5,
+  "validation_fraction": 0.1,
+  "pair_order": "seeded",
+  "selection": {
+    "primary_metric": "validation_auprc",
+    "threshold_metric": "validation_f1",
+    "threshold_grid_size": 100
+  },
+  "test_policy": "evaluate each frozen fold configuration once"
+}

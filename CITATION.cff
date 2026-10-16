@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use HerbHG in your research, please cite this software and the associated paper."
+title: "HerbHG: Structure--Semantic Hypergraph Learning for Herb--Disease Association Prediction"
+type: software
+version: 0.1.0
+authors:
+  - name: "HerbHG contributors"
+keywords:
+  - herb-disease association prediction
+  - hypergraph neural network
+  - multimodal learning
+  - bioinformatics

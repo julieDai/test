@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "project": "HerbHG",
+  "content_manifest": {
+    "path": "provenance/source_manifest.json",
+    "algorithm": "sha256"
+  },
+  "repositories": [
+    {
+      "id": "astra",
+      "remote": "https://github.com/julieDai/ASTAR.git",
+      "branch": "main",
+      "base_commit": "8df134aaa92687420256715065564fbaa7df0bcf",
+      "role": "primary model, experiment, and evaluation source",
+      "capture": "working-tree snapshot"
+    },
+    {
+      "id": "graduation_project",
+      "remote": "https://github.com/julieDai/Graduation_Project.git",
+      "branch": "master",
+      "base_commit": "5019fedc97cc24f0e9a5797fab9ea3ebb52739f2",
+      "role": "historical implementation and result provenance",
+      "capture": "reference"
+    }
+  ]
+}

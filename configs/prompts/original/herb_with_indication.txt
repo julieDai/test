@@ -1,0 +1,18 @@
+Generate a scientifically precise description of the herb [Herb] based on available data from TCM-suite database (https://github.com/TCM-suite). Include:
+
+1. **Key bioactive components** (list 3-5 primary compounds if available in TCM-suite).
+2. **Molecular targets** for each compound (specify protein/gene names and pathways, e.g., "AKT1, PI3K/AKT signaling").
+3. **Disease associations** linked to these targets (cite specific diseases from TCM-suite, e.g., "type 2 diabetes, hypertension").
+
+**Format requirements:**
+- Single cohesive paragraph (150-200 words)
+- Logical flow: Components → Targets → Disease mechanisms
+- Academic English style
+
+**Guidelines:**
+- Prioritize TCM-suite data when available
+- If partial data exists (e.g., only some compounds or targets), use what is available
+- Do NOT mention "TCM-suite" or any database names in the output description
+
+**Example format:**
+"[Herb] contains [compound1], [compound2], and [compound3]. [Compound1] targets [protein1] and [protein2], modulating the [pathway] signaling pathway, thereby associated with [disease1] and [disease2]. [Compound2] binds to [protein3], regulating [pathway2], which relates to [disease3]. [Compound3] interacts with [protein4], influencing [pathway3] in the context of [disease4]."

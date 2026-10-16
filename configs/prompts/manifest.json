@@ -1,0 +1,27 @@
+{
+  "schema": "herbhg-prompt-set/v1",
+  "conditions": {
+    "original": {
+      "description": "Original structure-aware semantic prompts",
+      "herb": {
+        "path": "original/herb_with_indication.txt",
+        "sha256": "68c72e55531c27ff3c4c5e5089910511d774c1eb12fb1ee8a6c7593bb8ad597a"
+      },
+      "disease": {
+        "path": "original/disease_with_herb_sources.txt",
+        "sha256": "51bd8c7c8b7f64dfb4d9b8bdf3ebb3c0338d0a4162402f6676bcf8c7b28c8d41"
+      }
+    },
+    "target_neutral": {
+      "description": "Endpoint-neutral semantic-control prompts",
+      "herb": {
+        "path": "target_neutral/herb.txt",
+        "sha256": "6ddb2c0cba8a71f17a46900989979cdfe2ea142372ee29f8087427697e674f45"
+      },
+      "disease": {
+        "path": "target_neutral/disease.txt",
+        "sha256": "5c2ca2eb0688a68091fb209fb4c90d303e0bd7fbcf27412e9efe986c8a4b2d57"
+      }
+    }
+  }
+}

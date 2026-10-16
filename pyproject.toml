@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "herbhg-hda"
+version = "0.1.0"
+description = "Structure--semantic hypergraph learning for herb--disease association prediction"
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+authors = [{name = "HerbHG contributors"}]
+keywords = [
+    "herb-disease association",
+    "hypergraph neural network",
+    "multimodal learning",
+    "bioinformatics",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = [
+    "numpy==1.23.5",
+    "pandas==1.5.3",
+    "scipy==1.10.1",
+    "scikit-learn==1.2.2",
+    "protobuf==3.19.6",
+    "tensorflow==2.10.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7,<9"]
+htinet = ["gensim==4.3.2"]
+semantic = [
+    "requests==2.34.2",
+    "torch==2.7.1",
+    "transformers==5.2.0",
+]
+plots = ["matplotlib==3.7.5"]
+
+[project.scripts]
+herbhg = "herbhg.cli:main"
+herbhg-smoke = "herbhg.smoke:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["herbhg*", "astra*"]
+
+[tool.setuptools.package-data]
+"herbhg.models.backends.tcm_suite" = ["*.conf"]
+"herbhg.models.backends.ethnobotany" = ["*.conf"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/unit", "tests/smoke", "tests/integration"]
+addopts = "-q"
+pythonpath = ["src"]

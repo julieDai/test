@@ -1,0 +1,1483 @@
+{
+  "algorithm": "sha256",
+  "file_count": 295,
+  "files": [
+    {
+      "bytes": 451,
+      "path": ".gitignore",
+      "sha256": "b77ab9a48aa62293565ba6a80d1aca72d0c7d05d8974a4b2f0ff673607f5eee8"
+    },
+    {
+      "bytes": 410,
+      "path": "CITATION.cff",
+      "sha256": "389e2c715e8efb69cc14d5bbb29af080c6745b4875c64449e32b414e19545f9b"
+    },
+    {
+      "bytes": 1545,
+      "path": "CONTRIBUTING.md",
+      "sha256": "256bbc3ed9cf706a5ad42d70f5c7e87d527ab06cefd1fbbd286bf7930c89cb16"
+    },
+    {
+      "bytes": 4904,
+      "path": "README.md",
+      "sha256": "af0df0da9f337c4af68f187bd8310292217678da349234bc1cefdcc73a540138"
+    },
+    {
+      "bytes": 916,
+      "path": "SECURITY.md",
+      "sha256": "e4b31e90d6be9166f517f49c3bfe0f78f732af2e87f6bbf2fa354d9ce5a04351"
+    },
+    {
+      "bytes": 1619,
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "34261772972715603f00fb88f4f9f52c011e06e08d8d9ed9e09f7ef1254d4ffc"
+    },
+    {
+      "bytes": 410,
+      "path": "configs/models/README.md",
+      "sha256": "4b2579a398f7cd2cda21b59d54520f1be8daa618bb29784656f85bb059191fe3"
+    },
+    {
+      "bytes": 941,
+      "path": "configs/models/ethnobotany.conf",
+      "sha256": "a7ce9630b9a85fce2fc6168befb6acc45a3f8add714b59029d1d0af73e96b6e2"
+    },
+    {
+      "bytes": 857,
+      "path": "configs/models/tcm_suite.conf",
+      "sha256": "4f5c3573331403d72d8b32a5b0882e527a9ce68e894cee0f2b01e5d1ab38b0ae"
+    },
+    {
+      "bytes": 678,
+      "path": "configs/prompts/README.md",
+      "sha256": "4980fa7d707eb96ad3c5b72a5c9153bf8fbc3e42f30d33203b5dc9a5d3057cd2"
+    },
+    {
+      "bytes": 893,
+      "path": "configs/prompts/manifest.json",
+      "sha256": "d88f3d7d1aa13a87e0046676346f06f6764280965965a5d8e36a0614964a236d"
+    },
+    {
+      "bytes": 2113,
+      "path": "configs/prompts/original/disease_with_herb_sources.txt",
+      "sha256": "51bd8c7c8b7f64dfb4d9b8bdf3ebb3c0338d0a4162402f6676bcf8c7b28c8d41"
+    },
+    {
+      "bytes": 1277,
+      "path": "configs/prompts/original/herb_with_indication.txt",
+      "sha256": "68c72e55531c27ff3c4c5e5089910511d774c1eb12fb1ee8a6c7593bb8ad597a"
+    },
+    {
+      "bytes": 1105,
+      "path": "configs/prompts/target_neutral/disease.txt",
+      "sha256": "5c2ca2eb0688a68091fb209fb4c90d303e0bd7fbcf27412e9efe986c8a4b2d57"
+    },
+    {
+      "bytes": 895,
+      "path": "configs/prompts/target_neutral/herb.txt",
+      "sha256": "6ddb2c0cba8a71f17a46900989979cdfe2ea142372ee29f8087427697e674f45"
+    },
+    {
+      "bytes": 255,
+      "path": "configs/protocols/README.md",
+      "sha256": "91a1d1674ebb497e2eb194ae1811c80e2b770127605e83857807236e4269f78f"
+    },
+    {
+      "bytes": 337,
+      "path": "configs/protocols/five_fold.json",
+      "sha256": "ee69a3aa23d809589f62fe626cbc069fafbaf8528453763194e8f9afbb6957ed"
+    },
+    {
+      "bytes": 2243,
+      "path": "docs/architecture.md",
+      "sha256": "778ed6a3f79928a80f6fc5c0b8dd41e3152b7c7900e90295ea732b147266d9ae"
+    },
+    {
+      "bytes": 1646,
+      "path": "docs/baselines.md",
+      "sha256": "2fa0ece2e88a032f1cc24d8c6f60ebf56bf741e43b7b32a8a0f259b693eed2d9"
+    },
+    {
+      "bytes": 2302,
+      "path": "docs/data.md",
+      "sha256": "a91eaf9d0029869a310085ba0a464aa6b1bbea1b9480f856ebc25b10f8612421"
+    },
+    {
+      "bytes": 2112,
+      "path": "docs/experiments.md",
+      "sha256": "a03428048705846ee28b9f6db9c9f671077348e7ba63a6a6088d9e98741de734"
+    },
+    {
+      "bytes": 1517,
+      "path": "docs/paper_to_code.md",
+      "sha256": "c89faa28b6279a41c734163ed1d3887407e7e3c5291152af603ac561944cdbe1"
+    },
+    {
+      "bytes": 2956,
+      "path": "docs/reproducibility.md",
+      "sha256": "8a1f47e3c3655e225a97c4157604a19ffd9f225d30c0e855b585d8e888f32f1d"
+    },
+    {
+      "bytes": 301,
+      "path": "environment.yml",
+      "sha256": "796a22f94a6fe266a9ee3bc39a395a6f6db95618390459c582c7b285fd6ef182"
+    },
+    {
+      "bytes": 407,
+      "path": "experiments/01_main_comparison/README.md",
+      "sha256": "2cd0125da323c915844501fc4c03acfb5e7691a5c498a21eb93357d1a2c303cd"
+    },
+    {
+      "bytes": 1117,
+      "path": "experiments/01_main_comparison/ethnobotany/README.md",
+      "sha256": "297e39c3e9cd65569cc0a3aaaeaa516d9b581bf4d10bb85cdb4d65e38d9b40f5"
+    },
+    {
+      "bytes": 979,
+      "path": "experiments/01_main_comparison/tcm_suite/README.md",
+      "sha256": "f2914d6448bb1e7e920813342f713e1ebdbd5eb854a463157345aab925704923"
+    },
+    {
+      "bytes": 1035,
+      "path": "experiments/02_component_ablation/README.md",
+      "sha256": "f0c194fc519cafb1ce5dbe6ccf86bf40fc9b3dfbe86f5b2f983052c5f26f18a9"
+    },
+    {
+      "bytes": 588,
+      "path": "experiments/03_propagation_depth/README.md",
+      "sha256": "ca199f0e67f3025d0191d06d4667cae9d83e42c2246212b73117c603289a474e"
+    },
+    {
+      "bytes": 893,
+      "path": "experiments/04_relation_perturbation/README.md",
+      "sha256": "aca2ea356ad36cbc2e354c9b8719c1e6474dcdccd3836660f5fb16d26199d76d"
+    },
+    {
+      "bytes": 216,
+      "path": "experiments/05_cold_start/README.md",
+      "sha256": "91cb4402088a2425be8e751b2144f3a9402bd73694b2ed4dcda40782049cfe08"
+    },
+    {
+      "bytes": 441,
+      "path": "experiments/05_cold_start/held_out_herbs/README.md",
+      "sha256": "d5411a14825eff7b3ef55dcb7dfdfa5f369151ae45f63c0a3d42304a6ac2b53a"
+    },
+    {
+      "bytes": 864,
+      "path": "experiments/05_cold_start/semantic_fusion/README.md",
+      "sha256": "b2f7f6f796a9d3563078f25eb0054ba774fe67b4be0dbcc6656c53c16b47df1c"
+    },
+    {
+      "bytes": 1168,
+      "path": "experiments/06_semantic_controls/README.md",
+      "sha256": "d29a79e9f5283c078b3774903efba317943a3522491995ae46d6ad7eb2c3ef5c"
+    },
+    {
+      "bytes": 730,
+      "path": "experiments/07_case_study/README.md",
+      "sha256": "78df9fde1342c39ebdd8781638a7230c53b1030a2bc2d2847a786922dab3cf52"
+    },
+    {
+      "bytes": 648,
+      "path": "experiments/08_model_selection/README.md",
+      "sha256": "358e21283611dcf375fd548283589f7ef1dc71066f1acd2a0c73fa0813e8320f"
+    },
+    {
+      "bytes": 414,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/README.md",
+      "sha256": "3a923d9cc436c6a6bf3b82f836a4de773f2a65dfe4faf2406e7a7638ca67a4b1"
+    },
+    {
+      "bytes": 1883,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/alpha_nested_seed42.json",
+      "sha256": "7ec882c6e2f237ae63ababb55204a6e372bb4727c250b0ec33a2f09ff94877af"
+    },
+    {
+      "bytes": 1061,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s1_c0_legacy_epoch_grid.json",
+      "sha256": "071fe7ebe44ffc62d2cc9eb6113040b88ec4a1787be24ce42b7f2cf66cc2b256"
+    },
+    {
+      "bytes": 1080,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s1_c0_legacy_epoch_grid_no_trace.json",
+      "sha256": "30760cb099fd74f8d91116689df95b94b47fb37bb3215d751f8a1eea407e1dd3"
+    },
+    {
+      "bytes": 1058,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s2a_bce_logits_sum.json",
+      "sha256": "2fa193736643be00a9f46e2e6cc05a33d95d8436823a0e0ea4024681c00a869e"
+    },
+    {
+      "bytes": 1080,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s2b_loss_mean.json",
+      "sha256": "56fda42819ac85858236605a731e188281019be593ac26fe628218d250490be6"
+    },
+    {
+      "bytes": 1078,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s2c_clip5.json",
+      "sha256": "ddbce578af3153e5053e15a2e31045280f338d7c0c7c70dbc730c39c277dbc0b"
+    },
+    {
+      "bytes": 1079,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s2d_lr3e4_root.json",
+      "sha256": "9a556ab65b50dc63debe5f416aeccfeeac3383d0cc10ca04326d987cc37f6164"
+    },
+    {
+      "bytes": 1083,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s2e_remove_lr3e4.json",
+      "sha256": "4f275cdc8a603975521cb649f793a83a087875e0bec95d8c3c5a76917ad4dc85"
+    },
+    {
+      "bytes": 1091,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s2e_remove_root.json",
+      "sha256": "cfb20d2dd8df3ccd42848a84e520f796926273979bb80a06aabcad1582bed8e2"
+    },
+    {
+      "bytes": 1073,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s3_balanced_lr3e4.json",
+      "sha256": "d56623192434f137d93a60f32193d6ae346c4d185260344bca0bd2bf8fbbdb09"
+    },
+    {
+      "bytes": 1081,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s3_balanced_root.json",
+      "sha256": "f9596c1f35c8482218cb365ba5ea2d1efe059cec54e36ac62334358694e0e287"
+    },
+    {
+      "bytes": 1107,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s4a_linear64_balanced_root.json",
+      "sha256": "f33ccb9b676623b97e19063f06848a99d391498c585de641f770d25b16533a26"
+    },
+    {
+      "bytes": 1102,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s4a_linear64_lr3e4.json",
+      "sha256": "feeed4ed94377542e9b9dd90adba6bfa32986d41fd58b3de5150d98b43fe5e81"
+    },
+    {
+      "bytes": 1110,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s4a_linear64_root.json",
+      "sha256": "b17ddb011ff9b67706b364953d4457d6e50b129058bd609931bc188225181b46"
+    },
+    {
+      "bytes": 1138,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s4b_pca128_from_linear64_balanced.json",
+      "sha256": "f5415b85c60fd31d222ed5b469c999c7e929e919fb47589c269e3b054200f835"
+    },
+    {
+      "bytes": 1132,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s4b_pca128_from_linear64_lr3e4.json",
+      "sha256": "1bba5accd717a77540c888828d2157a75dc9defe3e27ab595e43bf82871bc570"
+    },
+    {
+      "bytes": 1130,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s4b_pca128_from_linear64_root.json",
+      "sha256": "acd9215ea7484b0dec9d43820264fc0a8891ad9c0f4f8a415e69c3a6970a8604"
+    },
+    {
+      "bytes": 1152,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s4b_zeropad128_from_linear64_balanced.json",
+      "sha256": "26e6d557c029e936f7f11290f6d4eb6d423c3d910d33036453768320fddd4fd1"
+    },
+    {
+      "bytes": 1146,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s4b_zeropad128_from_linear64_lr3e4.json",
+      "sha256": "3ca1761c6a99c7316b4b7e231603f892b534cebd37ae40d443f3e9badd032a28"
+    },
+    {
+      "bytes": 1144,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/s4b_zeropad128_from_linear64_root.json",
+      "sha256": "1b9633173e9d0bac9eb649552a7838c5992348f579680e7600ec8e85fb3c6c35"
+    },
+    {
+      "bytes": 1166,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/s5_gated_residual_balanced_root.json",
+      "sha256": "0f9f7fbd94c745498a6f75159903fe8345fa61c3ba9dd9275d61ba627b4ffa2a"
+    },
+    {
+      "bytes": 1155,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/s5_gated_residual_lr3e4.json",
+      "sha256": "eac44493e7ea56eff8adb663448d6b777a12d1f05a65ae95e0220196af35a1f0"
+    },
+    {
+      "bytes": 1153,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/s5_gated_residual_root.json",
+      "sha256": "5a57388167a44ddedfd8b67c90735ff1dd8911f7168a4aedb3a1a3dc6d7c2fc8"
+    },
+    {
+      "bytes": 1169,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/s5_residual_linear_balanced_root.json",
+      "sha256": "08d826ec1cc826395d7b59c201a28f7b5fb18490a247c54b54ff6b96a67ce333"
+    },
+    {
+      "bytes": 1158,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/s5_residual_linear_lr3e4.json",
+      "sha256": "834b022b7ce3d0176588ad462072d89bc2aec923484ce0d29d1f467973b5b817"
+    },
+    {
+      "bytes": 1156,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/s5_residual_linear_root.json",
+      "sha256": "fc09cb415e3b69aeb28ae1a6df6edb94430bb9b88e1aeae10d049ecb06c6d9fb"
+    },
+    {
+      "bytes": 1160,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/s5_residual_mlp_balanced_root.json",
+      "sha256": "fdeaafd9e072a344fa1bee33924f32421ed34718f8303ddf08388a295a059a16"
+    },
+    {
+      "bytes": 1149,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/s5_residual_mlp_lr3e4.json",
+      "sha256": "d1d312b4472db6a6def1380d51b81fad63eef4a36a2a736d86a39273db4ab731"
+    },
+    {
+      "bytes": 1147,
+      "path": "experiments/08_model_selection/ethnobotany_semantic_adapter/configs/s5_residual_mlp_root.json",
+      "sha256": "7ec833a0b72ef89f8f5f1b56eb07176ba5147f0e2537266fdeae81c15133915f"
+    },
+    {
+      "bytes": 487,
+      "path": "experiments/08_model_selection/tcm_hyperparameters/README.md",
+      "sha256": "31478e3ff5f25d092dba7faec8150ff96a2db2d70bb134024c06f795dce7633f"
+    },
+    {
+      "bytes": 1242,
+      "path": "experiments/README.md",
+      "sha256": "21c09ddaaed5b319e04fe6c5e96f7bf5ca36436de51dd03a321f33634db9fed6"
+    },
+    {
+      "bytes": 663,
+      "path": "provenance/README.md",
+      "sha256": "4eef6927888f0a590eb8b1b17c4302fd629b86cef5f1ddb5c7a6978e1939dbe5"
+    },
+    {
+      "bytes": 2625,
+      "path": "provenance/migration_map.tsv",
+      "sha256": "69236fdc61c58feee5427fccb0ddab7aa29cea34c6ae8adfa1284569aa1e78a8"
+    },
+    {
+      "bytes": 764,
+      "path": "provenance/origins.json",
+      "sha256": "3bd981736bf42fb60c721cbfe673428cd0f959d54f5dd5cf5e162a7438918024"
+    },
+    {
+      "bytes": 1632,
+      "path": "pyproject.toml",
+      "sha256": "2458919d2f019036f10a23dd226844de65b72749b9d1412c5958439478f3f57c"
+    },
+    {
+      "bytes": 764,
+      "path": "results/reference/README.md",
+      "sha256": "8ccf553627d449e3eb2cf6feae04b5eff1a42dbbc9d8f03bd9ac9330693e2a98"
+    },
+    {
+      "bytes": 884,
+      "path": "src/ablation_study/HerbHG_ablation.conf",
+      "sha256": "78fc5b8878f0046f82cc099d207320d502b573187693afd28b114b6d566dad05"
+    },
+    {
+      "bytes": 466,
+      "path": "src/ablation_study/README.md",
+      "sha256": "9a544907f34a1c4f9d94bb7b82746b0efefd55d329cfe53f3b74ce25971a9a29"
+    },
+    {
+      "bytes": 1083,
+      "path": "src/ablation_study/__init__.py",
+      "sha256": "9e1189db7032766f5d0d975842becd052f7174436752d66ffe5c87b01d78d364"
+    },
+    {
+      "bytes": 3058,
+      "path": "src/ablation_study/paths.py",
+      "sha256": "0dcc9a1097c3e7e1f1bb827beb39302688b725b996088515469d9d669832034b"
+    },
+    {
+      "bytes": 16445,
+      "path": "src/ablation_study/variant_1_random_init.py",
+      "sha256": "294e6daa90bb9f7f3939becdb962c4f6127918b92708fda7b848f6b3cff7e578"
+    },
+    {
+      "bytes": 14092,
+      "path": "src/ablation_study/variant_2_no_text.py",
+      "sha256": "57e2b44ac3ef89b4162d76807f85fb2fd6926c4b562558122c872394d29e0aae"
+    },
+    {
+      "bytes": 15985,
+      "path": "src/ablation_study/variant_3_mean_pooling.py",
+      "sha256": "cc35eca2a1fcf3d048bc517c0c2cec1ae48343629e140a064a367e98dc35517c"
+    },
+    {
+      "bytes": 15836,
+      "path": "src/ablation_study/variant_4_no_clique.py",
+      "sha256": "28386ab72b673552f255fc400098945f2c4d71764c079164ebeb41a1aa1bbcdc"
+    },
+    {
+      "bytes": 15758,
+      "path": "src/ablation_study/variant_5_no_disease_hypergraph.py",
+      "sha256": "0a691be997e125303f503fed2b5d30f8813bd5f173b8bf458c09bbc0ae709038"
+    },
+    {
+      "bytes": 387,
+      "path": "src/astra/__init__.py",
+      "sha256": "b5ecc718571c49e7b9ea7eee034399a65e47cdff8cab81ae8eddf363e41e828f"
+    },
+    {
+      "bytes": 148,
+      "path": "src/astra/__main__.py",
+      "sha256": "8160816785568479c9fb373f11840b20332d99235c37c04d8228e9934d943c62"
+    },
+    {
+      "bytes": 1114,
+      "path": "src/astra/benchmark/__init__.py",
+      "sha256": "de03937eb518ab1fb3cee636c4c3aa7aa62030e57947b1ed8b064b7a9fb7ab3c"
+    },
+    {
+      "bytes": 71344,
+      "path": "src/astra/benchmark/astra_runner.py",
+      "sha256": "b15000736c05e82a4c5c91087df700692c06165cb8e276afe481b9e335dd4d79"
+    },
+    {
+      "bytes": 1546,
+      "path": "src/astra/benchmark/backend_paths.py",
+      "sha256": "701712edf488c0fe8e765c516fdcd4d1acb5b9744ab93323c3f224efda83b1e7"
+    },
+    {
+      "bytes": 66987,
+      "path": "src/astra/benchmark/ethnobotany_adapter_confirmation.py",
+      "sha256": "a32e85dcb4fa95f8c868873b050a4ccb512043c8aa99d4507a81e77c976ab193"
+    },
+    {
+      "bytes": 60791,
+      "path": "src/astra/benchmark/ethnobotany_adapter_selection.py",
+      "sha256": "9d09690bee40fdf01bd989666482c342b3fa7101fb5649aeccf11a85052cdd36"
+    },
+    {
+      "bytes": 32983,
+      "path": "src/astra/benchmark/ethnobotany_adapter_selection_amendment.py",
+      "sha256": "86e7b6cafb78642582a2877a9e4370cc41476fd26337ffb39114841e7747c610"
+    },
+    {
+      "bytes": 58691,
+      "path": "src/astra/benchmark/ethnobotany_alpha_selection.py",
+      "sha256": "79bd244828b3cc4de1ed6317a23dfb3e62c0a004730bb72d038ac9990e30c4bc"
+    },
+    {
+      "bytes": 202387,
+      "path": "src/astra/benchmark/ethnobotany_feature_bundle.py",
+      "sha256": "4eff3a0a1135660fb2df1af76df2089b9af99137cc7603b7f9fccd5c3b798cec"
+    },
+    {
+      "bytes": 115475,
+      "path": "src/astra/benchmark/ethnobotany_feature_extractors.py",
+      "sha256": "59bb85e21e01686b45a142266fe1fe239ae353e22a14205226be08e9e21312b5"
+    },
+    {
+      "bytes": 33674,
+      "path": "src/astra/benchmark/ethnobotany_qwen_semantics.py",
+      "sha256": "00e76fa1cb8a9363083c4270f31daa609b5ca50b1fe5a918a010b3217b294f3a"
+    },
+    {
+      "bytes": 24890,
+      "path": "src/astra/benchmark/ethnobotany_refined_feature_receipt.py",
+      "sha256": "0a29eb7b5198e5f1e986dd9a5bb4b6fe7a2dea18428ab210b22646016d320957"
+    },
+    {
+      "bytes": 40619,
+      "path": "src/astra/benchmark/ethnobotany_refined_runner.py",
+      "sha256": "b67f8992c085a1f266a907e920803390ab6b644ca75c1905a3cc1d831f34b59a"
+    },
+    {
+      "bytes": 120911,
+      "path": "src/astra/benchmark/ethnobotany_refined_selection.py",
+      "sha256": "a76a44a049adf1cd9df8ea7dd4bb955497422d717d990598117052770b44c9f7"
+    },
+    {
+      "bytes": 42424,
+      "path": "src/astra/benchmark/ethnobotany_seed42_post_selection_diagnostic.py",
+      "sha256": "c5e8f3d9fa0f8e9eaf82e96321b56846ea0f3b914129a3ce8a312577d8c049aa"
+    },
+    {
+      "bytes": 11525,
+      "path": "src/astra/benchmark/ethnobotany_semantic_adapter_runner.py",
+      "sha256": "05e16f254418697d5b938a31e117a42c64af0f5471160d1761621b7ed9c99df2"
+    },
+    {
+      "bytes": 16996,
+      "path": "src/astra/benchmark/ethnobotany_semantic_controls.py",
+      "sha256": "8de60ab90f1f29c6a02e402eb952a65ea8e2afa7176bad50b7d00b18d6ab9c0b"
+    },
+    {
+      "bytes": 62948,
+      "path": "src/astra/benchmark/ethnobotany_semantic_features.py",
+      "sha256": "0b86baf1d6629741b12e9141c1dcef5cc03a1be585db80efbf5480b738087cc8"
+    },
+    {
+      "bytes": 16987,
+      "path": "src/astra/benchmark/fair_comparison.py",
+      "sha256": "8a13c3c9f14030fccc3ac5608eaab7d2fabfeea46e22f9479f7dfc8584163fa1"
+    },
+    {
+      "bytes": 8926,
+      "path": "src/astra/benchmark/features.py",
+      "sha256": "f8ac012f563f4cfee3d2b86cb1fe77c8ee5a61e7a0e9c73833b33c13d7c302fd"
+    },
+    {
+      "bytes": 7293,
+      "path": "src/astra/benchmark/harmonize_metrics.py",
+      "sha256": "8e47b76302a7f27bf8ff1fae4cb8361880a7de8c04ae91c3fd016b1a61700aca"
+    },
+    {
+      "bytes": 24296,
+      "path": "src/astra/benchmark/metrics.py",
+      "sha256": "5920fe7c71a8f8e94359fbe194747e4cbc29c1025648bd8a99f95d65e6d48aa1"
+    },
+    {
+      "bytes": 2485,
+      "path": "src/astra/benchmark/prepare.py",
+      "sha256": "b971900608ac433e0336b5c463d990066b8fd24a969529f404a82853df2ae189"
+    },
+    {
+      "bytes": 50923,
+      "path": "src/astra/benchmark/protocol.py",
+      "sha256": "13b2e8e974f7cac38ccd751f037b654372513f753df4a8833bde65adefa4ad5d"
+    },
+    {
+      "bytes": 28351,
+      "path": "src/astra/benchmark/tcm_astra_epoch_boundary_decision.py",
+      "sha256": "950bbcfc353d572324c7a761c6d1b81af8f9d2b338dee1ee837d97fa5b73c9ae"
+    },
+    {
+      "bytes": 26066,
+      "path": "src/astra/benchmark/tcm_astra_epoch_boundary_plan.py",
+      "sha256": "e04f728655f4c49345e4d8c01037592bfdc1845a14e96a4e71d5fe28eb295503"
+    },
+    {
+      "bytes": 14556,
+      "path": "src/astra/benchmark/tcm_astra_epoch_boundary_runner.py",
+      "sha256": "edf3f411e71018d0a3ec8b619bd5d35800bcbe17ead87f4cb9869cb05f05af0c"
+    },
+    {
+      "bytes": 7969,
+      "path": "src/astra/benchmark/tcm_astra_hparam_runner.py",
+      "sha256": "182b1fa64141c4504fdfd436c03791714972d63a816eeae5ff88c9a8534f1dac"
+    },
+    {
+      "bytes": 51396,
+      "path": "src/astra/benchmark/tcm_astra_hparam_selection.py",
+      "sha256": "38b20abdcb1dc320c4b76bcb036249fec62faa3c60b5cbbbde99b4d1125137a1"
+    },
+    {
+      "bytes": 42838,
+      "path": "src/astra/benchmark/tcm_astra_pca64_control_evaluate.py",
+      "sha256": "d1dfc75f6e7c933b803f07ada0a0b129926ac8a8e5471cfb08018aa24f454f39"
+    },
+    {
+      "bytes": 15273,
+      "path": "src/astra/benchmark/tcm_astra_pca64_control_plan.py",
+      "sha256": "0950bc7db7eb61e0463324f3a44969a01749f0cf229463dfb74cb0ba9ad51fdc"
+    },
+    {
+      "bytes": 14296,
+      "path": "src/astra/benchmark/tcm_astra_pca64_control_runner.py",
+      "sha256": "7cfa29adc2087d15ccf54f09a351857f76b9fcb00c868aa897ef13e8ee4e10f7"
+    },
+    {
+      "bytes": 14436,
+      "path": "src/astra/benchmark/tcm_astra_pca64_control_selection.py",
+      "sha256": "69b7cc9499b828bdf05c6a2ba08c7c23192aac2f684b187af0b247d47de7ca82"
+    },
+    {
+      "bytes": 23467,
+      "path": "src/astra/benchmark/tcm_astra_pca64_deterministic_pair_guard.py",
+      "sha256": "9debd47fb27ef8898694ec6fa114fc942c395d048267f2c4b3b54d2fe1e4fbb7"
+    },
+    {
+      "bytes": 33419,
+      "path": "src/astra/benchmark/tcm_astra_pca64_deterministic_plan.py",
+      "sha256": "720f666d9c92b4372d772716adf8932f9382cc5772eb13ed4950a3248e72847c"
+    },
+    {
+      "bytes": 16641,
+      "path": "src/astra/benchmark/tcm_astra_pca64_deterministic_runner.py",
+      "sha256": "55feaa74fd2a76f485bd70e5948181953b6f286c6824374fc0fb4632a15cb7a1"
+    },
+    {
+      "bytes": 15749,
+      "path": "src/astra/benchmark/tcm_astra_pca64_deterministic_selection.py",
+      "sha256": "dd4eba3d070a70fcea3fb9e32c9e9fce6dc06f46bf6eba7915f51da2623ca2aa"
+    },
+    {
+      "bytes": 8238,
+      "path": "src/astra/benchmark/tcm_astra_semantic_adapter_deterministic_plan.py",
+      "sha256": "1f5c4bb11e94035fb2d259eba0ddf54937c4aafb872c0a813b40050e395d73fd"
+    },
+    {
+      "bytes": 12615,
+      "path": "src/astra/benchmark/tcm_astra_semantic_adapter_deterministic_runner.py",
+      "sha256": "2cece5f92b286f618ea55747cce84c7f2fb460cd430d3aee25041894eaa6191b"
+    },
+    {
+      "bytes": 6354,
+      "path": "src/astra/benchmark/tcm_astra_semantic_adapter_deterministic_selection.py",
+      "sha256": "64b192dc25c052e544c9f65ba443246ed0d2086d0313403cdf2b604585fb5391"
+    },
+    {
+      "bytes": 73013,
+      "path": "src/astra/benchmark/tcm_astra_semantic_adapter_evaluate.py",
+      "sha256": "253b749f0a7da333449d979a3adc3ecdaa4cb908682a5c9b3f6b768e8b54ff88"
+    },
+    {
+      "bytes": 12255,
+      "path": "src/astra/benchmark/tcm_astra_semantic_adapter_pair_guard.py",
+      "sha256": "4bc37a557e102bb1442acf47e26c9776e55c77f2772dac7618e75623cab40451"
+    },
+    {
+      "bytes": 25511,
+      "path": "src/astra/benchmark/tcm_astra_semantic_adapter_plan.py",
+      "sha256": "03272730d9fba68228fe3f5e708df9b4982e7e5adde7f4f6099a7d47095aa2a0"
+    },
+    {
+      "bytes": 17540,
+      "path": "src/astra/benchmark/tcm_astra_semantic_adapter_runner.py",
+      "sha256": "7ba59bfb6eca016985496d0b9c10b0f8c70a4fb7945ebf68bf1b1609a1ca9ac8"
+    },
+    {
+      "bytes": 23845,
+      "path": "src/astra/benchmark/tcm_astra_semantic_adapter_selection.py",
+      "sha256": "bf54fdac7694b91f7a557d31cbe35a0ab2dd0ef2aed3092faf85ee3f06ecc9a2"
+    },
+    {
+      "bytes": 27901,
+      "path": "src/astra/benchmark/tcm_feature_bundle.py",
+      "sha256": "dcc03b548926403a86046dedf1e1f9b02fed2030df475699a0934b91b4c72575"
+    },
+    {
+      "bytes": 34048,
+      "path": "src/astra/benchmark/tcm_pca64_feature_bundle.py",
+      "sha256": "819b9b5f55f482c2b98019349811ae6b2477922091f425a830134c38597e8764"
+    },
+    {
+      "bytes": 857,
+      "path": "src/astra/cli.py",
+      "sha256": "dd134be8a0c8c71383a274e1eea2b936d2ca96e0f00afc34187e9cbf14312f90"
+    },
+    {
+      "bytes": 2461,
+      "path": "src/astra/config.py",
+      "sha256": "81bb402677f15655972d9a76d3d3a2d86b1f9341613f448c6d13e2e203e77700"
+    },
+    {
+      "bytes": 3558,
+      "path": "src/astra/data_validation.py",
+      "sha256": "558703577cc0d7b3d9505a013aaea29e4be0321e0c7001d502b1641d08022043"
+    },
+    {
+      "bytes": 202,
+      "path": "src/astra/official_baselines/__init__.py",
+      "sha256": "279bcd0189f2b5ba219b72d9d3c9cd37f2b811ec2b4f097673077f41f6125846"
+    },
+    {
+      "bytes": 66540,
+      "path": "src/astra/official_baselines/audit_results.py",
+      "sha256": "dff17148d1fa8bb8293be3a641be24f6d1a54dbaed4a8efbca42e7366cf877d9"
+    },
+    {
+      "bytes": 47352,
+      "path": "src/astra/official_baselines/bigi_runner.py",
+      "sha256": "4cf716bf03483e8c42fe26948be5aba909ac6c2d31d3a17796a9fee079e56ee5"
+    },
+    {
+      "bytes": 46045,
+      "path": "src/astra/official_baselines/common.py",
+      "sha256": "a0657a5158223c1d0df403e11e8f532a0ca05c4aae918c8428cd400d2779ba5b"
+    },
+    {
+      "bytes": 49318,
+      "path": "src/astra/official_baselines/hghda_runner.py",
+      "sha256": "4eacc3951675c14662bb9ffc84eb59f11c73a7f3097b45493c3a96e63338e442"
+    },
+    {
+      "bytes": 35649,
+      "path": "src/astra/official_baselines/historical_reaudit.py",
+      "sha256": "941019c91072057a576bbb20d366e6c0629ed13eca4392a3e83a59676d5735f3"
+    },
+    {
+      "bytes": 34518,
+      "path": "src/astra/official_baselines/htinet_runner.py",
+      "sha256": "d87a41ce613758c0294b9d493c6d87d482eea9f466447d623715658115f729a6"
+    },
+    {
+      "bytes": 20947,
+      "path": "src/astra/official_baselines/lhgce_budget_selection.py",
+      "sha256": "5fc736ad482114c2dd5c0a9d63c0ba5ee5beab04c26195f0e165a09ee0cf8254"
+    },
+    {
+      "bytes": 12286,
+      "path": "src/astra/official_baselines/lhgce_identity.py",
+      "sha256": "766a56ae7794ddd0e41af0379c81fa41ad9e6d3c9e8d676a569dc04aae25c275"
+    },
+    {
+      "bytes": 35102,
+      "path": "src/astra/official_baselines/lhgce_runner.py",
+      "sha256": "78ab14884279341a0b90588829c54f5cd3872a86780a6e17a198d2e41d595a77"
+    },
+    {
+      "bytes": 63724,
+      "path": "src/astra/official_baselines/milgnet_runner.py",
+      "sha256": "cbada5cdb463d5499678c4fda718bbbfd5f2861dd0b1c0bf071d685ccaf84090"
+    },
+    {
+      "bytes": 13403,
+      "path": "src/astra/official_baselines/preflight.py",
+      "sha256": "2d7c5fe297a2c7c8cfb8b52575b8318c82e70370d6837e09565c7a6401e97949"
+    },
+    {
+      "bytes": 26679,
+      "path": "src/astra/official_baselines/run.py",
+      "sha256": "7f3217c686907391764424be0ca7807507931e82e3455f99f5d5ae18537b837b"
+    },
+    {
+      "bytes": 18950,
+      "path": "src/astra/official_baselines/smgcl_budget_selection.py",
+      "sha256": "322882ad38b1fcea6429805f761af25b1b5e0f6aab7451986751e8109b525320"
+    },
+    {
+      "bytes": 72602,
+      "path": "src/astra/official_baselines/smgcl_runner.py",
+      "sha256": "71705f5b9c2853bc2fd9f884a3b225065fb8a28a11893740c0da77b3f2822e7b"
+    },
+    {
+      "bytes": 2828,
+      "path": "src/astra/paths.py",
+      "sha256": "30081ed5f74f5481db4aea18890b296c634ba731c5e597bb452010bf8cb12dab"
+    },
+    {
+      "bytes": 6249,
+      "path": "src/astra/runtime.py",
+      "sha256": "14eaad63171ab6d5b47b6d5559053cddf5f3d6f8a0a37df05e1703e96354f8d0"
+    },
+    {
+      "bytes": 2388,
+      "path": "src/astra/smoke.py",
+      "sha256": "67ea301e9831353ab184e48b8fad5643673cfbceb1d406d5d340ae967ca66816"
+    },
+    {
+      "bytes": 2102,
+      "path": "src/astra/tf_graph_seed.py",
+      "sha256": "07f8e4e1559724905c9efbc78f0f3cfda8ac4af0bc89000a421a56bab081892a"
+    },
+    {
+      "bytes": 1775,
+      "path": "src/astra/tf_initialization.py",
+      "sha256": "df9857001e6c2310c1807ba1ecda90c19e1cc70909b9192174c00fd03c81eacb"
+    },
+    {
+      "bytes": 42066,
+      "path": "src/astra/visualize.py",
+      "sha256": "b83ea7f113b00787f275e4d24735508bc9f700aa1a65cd955b09360e6fa589a4"
+    },
+    {
+      "bytes": 738,
+      "path": "src/case_study/HerbHG_ChuanXiong.conf",
+      "sha256": "d923b93afba2f04b06e484f5c7b3960c740e1d77f9badb92aa164e56c9932270"
+    },
+    {
+      "bytes": 732,
+      "path": "src/case_study/HerbHG_HuangQi.conf",
+      "sha256": "60008ee939ab9283b6110e00d9522502d04860ba2fb6414512034709ab4ad863"
+    },
+    {
+      "bytes": 667,
+      "path": "src/case_study/README.md",
+      "sha256": "41c1f64c132178a2dc5cfd767992a1865a0ce7f9ac41de139935c08d2f0ccf98"
+    },
+    {
+      "bytes": 7752,
+      "path": "src/case_study/predict_correct.py",
+      "sha256": "ab527d53c7d4fc9335db90e3cffee02c088c04f9f1feeea64d48794f160fdace"
+    },
+    {
+      "bytes": 6977,
+      "path": "src/case_study/prepare_case_study_data.py",
+      "sha256": "956b0dfb1099ef84f1ce5c14878d83591052559aa9cff1862c7b201ba23e7093"
+    },
+    {
+      "bytes": 10463,
+      "path": "src/case_study/train_final.py",
+      "sha256": "a8a2ab063a9057a005f991fe11179a7b6ec08c8a693772fd5b048b9e07bfa68d"
+    },
+    {
+      "bytes": 366,
+      "path": "src/herbhg/__init__.py",
+      "sha256": "bed3909b34c62399b067fda483d60cca3432caa46c5801f90ea64282ae6a6c14"
+    },
+    {
+      "bytes": 130,
+      "path": "src/herbhg/__main__.py",
+      "sha256": "bdc6c27404f5e3cf180a1c79d3f305e65ea8725f0ff60d64ae6f25c514caf357"
+    },
+    {
+      "bytes": 327,
+      "path": "src/herbhg/baselines/__init__.py",
+      "sha256": "d0f5e4a036a8e0536b290dc37ee0e6daa1ce0f928f13b30e850801847af70255"
+    },
+    {
+      "bytes": 909,
+      "path": "src/herbhg/baselines/_launcher.py",
+      "sha256": "06b30f9a8ccaf94c04ae2bc8008ce87279419cb57389226d12eb13cc9bb4c208"
+    },
+    {
+      "bytes": 123,
+      "path": "src/herbhg/baselines/adapters/__init__.py",
+      "sha256": "10895883fae2e9a07e2f214f39f9fe831772c42b0eb124464fae704828b0a6ba"
+    },
+    {
+      "bytes": 354,
+      "path": "src/herbhg/baselines/adapters/bigi.py",
+      "sha256": "512dbb5aed1aab46bb4ba1d487d5986f4d2b40d555b656e7b14376d437709918"
+    },
+    {
+      "bytes": 356,
+      "path": "src/herbhg/baselines/adapters/hghda.py",
+      "sha256": "1f49bd41f62a5fbe858452b3ebb674315f4e41c4d51b8f359630f1e9d6d6661e"
+    },
+    {
+      "bytes": 356,
+      "path": "src/herbhg/baselines/adapters/lhgce.py",
+      "sha256": "5e073b8ac90a4cf3a860bcce8f980936989a4a57c793b0702abde332401df3a2"
+    },
+    {
+      "bytes": 360,
+      "path": "src/herbhg/baselines/adapters/milgnet.py",
+      "sha256": "472c65ca09491f0f071c7b586b74a70a0cc1c1030779bcb5237625342d03e980"
+    },
+    {
+      "bytes": 356,
+      "path": "src/herbhg/baselines/adapters/smgcl.py",
+      "sha256": "0d463ce3a2e8266844fd7d0f8e4368e8f5a660d2be7896488bc41d98419bca18"
+    },
+    {
+      "bytes": 100,
+      "path": "src/herbhg/baselines/contextual/__init__.py",
+      "sha256": "947a586089db1bd7b7b54d66c26badfb504c79ff8bd3b683ddcaad1dece0be5c"
+    },
+    {
+      "bytes": 427,
+      "path": "src/herbhg/baselines/contextual/htinet_kn.py",
+      "sha256": "9b78b277995709aca42f255de7ec3561165e883dc8145d49efdaaf4f3fcae654"
+    },
+    {
+      "bytes": 420,
+      "path": "src/herbhg/baselines/contextual/htinet_rf.py",
+      "sha256": "88ece149c06fc59ec97086bbef4f539080580577257f14b0b72f0368e8a44ecb"
+    },
+    {
+      "bytes": 3691,
+      "path": "src/herbhg/baselines/registry.py",
+      "sha256": "eeaa017cabaac1abe21eb965ca47917db552bf5a6767dbf23c29ac849d5d60ad"
+    },
+    {
+      "bytes": 5553,
+      "path": "src/herbhg/cli.py",
+      "sha256": "1557c4623cd597200f435d271276d7aa24ac557c2e39b1c3bbcb9d1009faa755"
+    },
+    {
+      "bytes": 72,
+      "path": "src/herbhg/compat/__init__.py",
+      "sha256": "3ccff19cf88cb75b22570e88b19d17bb2a3c33e035a1c11d44a0d3c65c6adbed"
+    },
+    {
+      "bytes": 52,
+      "path": "src/herbhg/core/__init__.py",
+      "sha256": "74f57b273ac219dbce4e68999768f29b7baec9d3ab69f7b27f6567a880d7f7c9"
+    },
+    {
+      "bytes": 53,
+      "path": "src/herbhg/data/__init__.py",
+      "sha256": "c6b80ad368d81802050f113e522ad297637c19e0067f4ee7fd8eebea6a72f25c"
+    },
+    {
+      "bytes": 62,
+      "path": "src/herbhg/evaluation/__init__.py",
+      "sha256": "dc605310f09cc0b111f81fdca6914ce87a1de56b1c989dd5c5c6c7db85e83546"
+    },
+    {
+      "bytes": 35,
+      "path": "src/herbhg/experiments/__init__.py",
+      "sha256": "a1d367e9821088a540ddbe1112775e9c5911b72b7636b0f5a0eefa228b98b0db"
+    },
+    {
+      "bytes": 1835,
+      "path": "src/herbhg/experiments/runtime.py",
+      "sha256": "a239aaab601e50bb5681ba69ce0c98fb60a9702f70af3b93e1b467f3c85e097e"
+    },
+    {
+      "bytes": 41,
+      "path": "src/herbhg/features/__init__.py",
+      "sha256": "1efadeb2cd44863b6863bc5a685156c509da177f3bdd94a27fc78bd518052771"
+    },
+    {
+      "bytes": 227,
+      "path": "src/herbhg/models/__init__.py",
+      "sha256": "47f6b187ae57fba87629df2e0d700c566f16ee4e87d080936f4b4f9ade0deb21"
+    },
+    {
+      "bytes": 46,
+      "path": "src/herbhg/models/backends/__init__.py",
+      "sha256": "0da5fa129564fc0e6e1c43769bc8f8fa613f938eeff384df0c68e016d2537a18"
+    },
+    {
+      "bytes": 379,
+      "path": "src/herbhg/models/backends/ethnobotany/ASTRA.py",
+      "sha256": "ba70fb21bfd29b5fa3ddf4b559a413713f60940e7ec8688c167c536abe6726f9"
+    },
+    {
+      "bytes": 52516,
+      "path": "src/herbhg/models/backends/ethnobotany/ASTRARefined.py",
+      "sha256": "fcea9d6d1ea5874a21c30b721104c27f83c92fd8174b1826e055930e656db421"
+    },
+    {
+      "bytes": 10906,
+      "path": "src/herbhg/models/backends/ethnobotany/ASTRASemanticRefined.py",
+      "sha256": "28b088f93b1a2e29632a106951729fdbfe5c7e23584e487cafb0f5573a3725dd"
+    },
+    {
+      "bytes": 8261,
+      "path": "src/herbhg/models/backends/ethnobotany/HDR.py",
+      "sha256": "9d4685f4cd3fb9174fdf0502c928d672a1ef79b7e184e8bac24f94b5ca5c6d32"
+    },
+    {
+      "bytes": 31221,
+      "path": "src/herbhg/models/backends/ethnobotany/HGHDA.py",
+      "sha256": "cc19214bd07d020d1475830d378265fbeea9ee2339f31f01024a31c1a2587a22"
+    },
+    {
+      "bytes": 266,
+      "path": "src/herbhg/models/backends/ethnobotany/HerbHG.py",
+      "sha256": "47f5aff70b8bf80c29b90d48d8e6db45486e3525b6697fadc7522e5a190ce16e"
+    },
+    {
+      "bytes": 38,
+      "path": "src/herbhg/models/backends/ethnobotany/__init__.py",
+      "sha256": "a96347bf7409fb8b0e2986ae62014e9931e7b7406d968610d6646b6f284719a7"
+    },
+    {
+      "bytes": 0,
+      "path": "src/herbhg/models/backends/ethnobotany/base/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1426,
+      "path": "src/herbhg/models/backends/ethnobotany/base/diseaseRecommender.py",
+      "sha256": "5ae4c8d216df6750fa8c982b3d0b5209253344fb1457a7e0b3c7a0d79b6856bf"
+    },
+    {
+      "bytes": 7589,
+      "path": "src/herbhg/models/backends/ethnobotany/base/herbRecommender.py",
+      "sha256": "29e60fd314c10689bb0945dfb390a77624433311e6f671dc94ccbb8eab039f03"
+    },
+    {
+      "bytes": 10466,
+      "path": "src/herbhg/models/backends/ethnobotany/base/recommender.py",
+      "sha256": "0e92517b5878f4e32ae88eaf15c74002725b612777fbbe6b5b9372a036c93d14"
+    },
+    {
+      "bytes": 932,
+      "path": "src/herbhg/models/backends/ethnobotany/ethnobotany.conf",
+      "sha256": "dfd6766baf82688ef9a5b93904ff36ff057f16a65f9f57e854f913e052ab7335"
+    },
+    {
+      "bytes": 4081,
+      "path": "src/herbhg/models/backends/ethnobotany/ethnobotany_feature_paths.py",
+      "sha256": "fb31d22a524e7796b71c7f69eeb18b4d45eafbd016cae25127c8e97cf1095bef"
+    },
+    {
+      "bytes": 8223,
+      "path": "src/herbhg/models/backends/ethnobotany/rating.py",
+      "sha256": "13c6b7d12d11b720b21395f998eba65eef0fb5c5f0e682b7f7f6624487ec7ae7"
+    },
+    {
+      "bytes": 11858,
+      "path": "src/herbhg/models/backends/ethnobotany/run_training.py",
+      "sha256": "56d3e722f3957ac79b53a337cac634fe410b17359d19fcfc632aa572234f47b9"
+    },
+    {
+      "bytes": 0,
+      "path": "src/herbhg/models/backends/ethnobotany/util/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2339,
+      "path": "src/herbhg/models/backends/ethnobotany/util/config.py",
+      "sha256": "2d24d8ef435f1a5605c165dcd7e3a027464be2250f9148812efc0236fa30f638"
+    },
+    {
+      "bytes": 548,
+      "path": "src/herbhg/models/backends/ethnobotany/util/dataSplit.py",
+      "sha256": "1b3167620a4cda1af723d84a823523aa45698b1ece779d3d04ff8cc2e2fa5ce3"
+    },
+    {
+      "bytes": 4825,
+      "path": "src/herbhg/models/backends/ethnobotany/util/io.py",
+      "sha256": "ee410564b04c5572becf5d4c7e30a1b01c370e53b2963388d5d2195cd12c1080"
+    },
+    {
+      "bytes": 781,
+      "path": "src/herbhg/models/backends/ethnobotany/util/log.py",
+      "sha256": "5e18f7962ff441187e2b33432f28ab5c1d07fdd8c98644bf58a2681717d11546"
+    },
+    {
+      "bytes": 785,
+      "path": "src/herbhg/models/backends/tcm_suite/ASTRA.conf",
+      "sha256": "a74142134de018bc7c0ea1ce9dc4d6313e989b9673db6f8315ed8fbf6b86cbdb"
+    },
+    {
+      "bytes": 387,
+      "path": "src/herbhg/models/backends/tcm_suite/ASTRA.py",
+      "sha256": "68102314d1cd85f3bc80f782c502b9a7e1783356538513fe144846b1b37ffc01"
+    },
+    {
+      "bytes": 20947,
+      "path": "src/herbhg/models/backends/tcm_suite/ASTRATCMSemanticAdapter.py",
+      "sha256": "3dab4f9463ade5d1e85ac066e1491e9516dc3196bde239a7a4aa788e32a9bf31"
+    },
+    {
+      "bytes": 3226,
+      "path": "src/herbhg/models/backends/tcm_suite/ASTRATCMSemanticAdapterDeterministic.py",
+      "sha256": "b28e819e9995a9a97357acbc6924ed126b740f2818e37fba06e3112d28d0644d"
+    },
+    {
+      "bytes": 8745,
+      "path": "src/herbhg/models/backends/tcm_suite/HDR.py",
+      "sha256": "eef6995656b290629f113e08ec540815ed3851bd44019c59fbe8b62bb1fcbfc3"
+    },
+    {
+      "bytes": 785,
+      "path": "src/herbhg/models/backends/tcm_suite/HGHDA.conf",
+      "sha256": "a74142134de018bc7c0ea1ce9dc4d6313e989b9673db6f8315ed8fbf6b86cbdb"
+    },
+    {
+      "bytes": 29232,
+      "path": "src/herbhg/models/backends/tcm_suite/HGHDA.py",
+      "sha256": "ded98f4e1738bc9286272b234ed082a959fa22d0576a26d340fc70635790cb74"
+    },
+    {
+      "bytes": 218,
+      "path": "src/herbhg/models/backends/tcm_suite/HerbHG.py",
+      "sha256": "fc276310c34b205241562e685e207fb642b71e3ad5a05751ff626daaac798068"
+    },
+    {
+      "bytes": 36,
+      "path": "src/herbhg/models/backends/tcm_suite/__init__.py",
+      "sha256": "f776e28c13c49d0c396644e5ae7d114a98632fd759199a4e274b937fa9f21c8d"
+    },
+    {
+      "bytes": 42,
+      "path": "src/herbhg/models/backends/tcm_suite/base/__init__.py",
+      "sha256": "22e4fd48d4831b8e502a90b36043a8050e3d5107abdb587ea744659a5535c1a8"
+    },
+    {
+      "bytes": 1426,
+      "path": "src/herbhg/models/backends/tcm_suite/base/diseaseRecommender.py",
+      "sha256": "5ae4c8d216df6750fa8c982b3d0b5209253344fb1457a7e0b3c7a0d79b6856bf"
+    },
+    {
+      "bytes": 7899,
+      "path": "src/herbhg/models/backends/tcm_suite/base/herbRecommender.py",
+      "sha256": "351860f038f8a4041da1121fb76de42111548d2dccabf6e7bc7ec7ee3e380713"
+    },
+    {
+      "bytes": 11108,
+      "path": "src/herbhg/models/backends/tcm_suite/base/recommender.py",
+      "sha256": "56325905d1f9cf68dcb2c94c137e30a5738a994a9cdfe6c0aef3b847dbf66dc1"
+    },
+    {
+      "bytes": 8669,
+      "path": "src/herbhg/models/backends/tcm_suite/main.py",
+      "sha256": "aa259510d4eaaf8374b1e6fd2d1511356a6809070163697eeaa6e546d010fb48"
+    },
+    {
+      "bytes": 10056,
+      "path": "src/herbhg/models/backends/tcm_suite/rating.py",
+      "sha256": "aeaaab9623ef6735458b2aa8993534902ba7758860e0d9c5473d20748bfa6f50"
+    },
+    {
+      "bytes": 35,
+      "path": "src/herbhg/models/backends/tcm_suite/util/__init__.py",
+      "sha256": "f0a0e897289b1401d95c7dba228c19368b742e9d32910cdfd7f8d659f013523c"
+    },
+    {
+      "bytes": 2894,
+      "path": "src/herbhg/models/backends/tcm_suite/util/config.py",
+      "sha256": "40d097d774a4ae284428bdde0b8bf3f9e63d6bf892f18bcb149491446ae3f96a"
+    },
+    {
+      "bytes": 548,
+      "path": "src/herbhg/models/backends/tcm_suite/util/dataSplit.py",
+      "sha256": "1b3167620a4cda1af723d84a823523aa45698b1ece779d3d04ff8cc2e2fa5ce3"
+    },
+    {
+      "bytes": 6056,
+      "path": "src/herbhg/models/backends/tcm_suite/util/io.py",
+      "sha256": "ff28b23024eebddc86c83ba5f5df99ae4ed274c970261254abcb553482c5f67d"
+    },
+    {
+      "bytes": 650,
+      "path": "src/herbhg/models/backends/tcm_suite/util/log.py",
+      "sha256": "48134a6d24a1b9f3440dc99446d28a33b41490ed33fe36cbfe77cfcdbf0f69ae"
+    },
+    {
+      "bytes": 3666,
+      "path": "src/herbhg/models/backends/tcm_suite/util/paths.py",
+      "sha256": "7cea3d0b7e478d02de8219d6fdf1a73cf08feace4639729ee9f14b9f51bbc8a4"
+    },
+    {
+      "bytes": 2491,
+      "path": "src/herbhg/paths.py",
+      "sha256": "0fa022d8c9f4e73584f77440520983e2670c6d1831020ad48c6e96b27980b2de"
+    },
+    {
+      "bytes": 2745,
+      "path": "src/herbhg/process.py",
+      "sha256": "7822f4f0434c6c2d9ba3b2159039258b4e21acb4fb5ded4dd95497d0e8706e68"
+    },
+    {
+      "bytes": 2449,
+      "path": "src/herbhg/smoke.py",
+      "sha256": "41cee87afc41dfbf5bdf6e77ba8211f8eaa5ac0e40929c4f2497160e91106094"
+    },
+    {
+      "bytes": 34,
+      "path": "src/herbhg/visualization/__init__.py",
+      "sha256": "3f8a12ee99f7402f8d7b4f32bd3a2daded25b2cdc09ef67d91ea755299feba33"
+    },
+    {
+      "bytes": 72,
+      "path": "src/reproduction/__init__.py",
+      "sha256": "c429cc3e3f3b01f55a4f22b035b2fee8d6db53f10411d22d5e4c2370a2ac16fd"
+    },
+    {
+      "bytes": 69,
+      "path": "src/reproduction/tcm_suite/__init__.py",
+      "sha256": "6daddd2aca56db830729e3cd9f93000a3356dca47aaf27ee4d59df6e4165a150"
+    },
+    {
+      "bytes": 2546,
+      "path": "src/reproduction/tcm_suite/build_embedding_controls.py",
+      "sha256": "95272ff7fe44647e737578a76cb081e60a600b1edbb69bc6d48c82b9eb2caafb"
+    },
+    {
+      "bytes": 6286,
+      "path": "src/reproduction/tcm_suite/build_structured_text_corpora.py",
+      "sha256": "eb4e31d77f114c7b8cbb4192e10927a1d741f8381d1633edbeb4dd9d92ce865f"
+    },
+    {
+      "bytes": 7158,
+      "path": "src/reproduction/tcm_suite/extract_controlled_embeddings.py",
+      "sha256": "187db12abc0aff440c3044ed0bc5698e155f8db77796d03f59dda70599ec921c"
+    },
+    {
+      "bytes": 7716,
+      "path": "src/reproduction/tcm_suite/generate_controlled_batch.py",
+      "sha256": "eaed7824ff6e1c521a04b448fd537e8fd9c85d3a645f49b803f78f2bc705e491"
+    },
+    {
+      "bytes": 7899,
+      "path": "src/reproduction/tcm_suite/generate_controlled_descriptions.py",
+      "sha256": "9dc2d93e881c9bfe136662dce50084dbf6d996af6558625050e26a28edbff9f1"
+    },
+    {
+      "bytes": 658,
+      "path": "src/reproduction/tcm_suite/job_paths.py",
+      "sha256": "41d9c6253e158bc9da7bcbcbf4a6cc4b504c5b2a301b23b3fa3d613cc4a0e0fc"
+    },
+    {
+      "bytes": 2980,
+      "path": "src/reproduction/tcm_suite/prepare_noise.py",
+      "sha256": "1c852490084e607247ca80f0442964902abfec8ce38428ff5088ecd5f9e195de"
+    },
+    {
+      "bytes": 3291,
+      "path": "src/reproduction/tcm_suite/prepare_protocol.py",
+      "sha256": "4d30b55fe364c2565d3265033dd6bfd20c041336d11e643d2943dcd754d07704"
+    },
+    {
+      "bytes": 5390,
+      "path": "src/reproduction/tcm_suite/run_ablation_folds.py",
+      "sha256": "1b45dc5304a9f250cce90bf979044025ecf20a92757a0c306e34990c08b949a2"
+    },
+    {
+      "bytes": 7573,
+      "path": "src/reproduction/tcm_suite/run_cold_start.py",
+      "sha256": "3572b36439a5569e18e023a6c35db8cfde1f2b7c61e8d794daeb9ad6b27c7428"
+    },
+    {
+      "bytes": 6129,
+      "path": "src/reproduction/tcm_suite/run_controlled_text_pipeline.py",
+      "sha256": "2f8b9ff25d9c39739b62189442e7a386a856b7b339da6e67c2ccec8a9c5dc02c"
+    },
+    {
+      "bytes": 3088,
+      "path": "src/reproduction/tcm_suite/run_embedding_queue.py",
+      "sha256": "ede05285f10e1315a53d24c93a5c1e5615be91a5b2b97af2cff8d8aa58cb5442"
+    },
+    {
+      "bytes": 4723,
+      "path": "src/reproduction/tcm_suite/run_layer_folds.py",
+      "sha256": "eadc1f502f3661004dbeb7ed35e2e3c0c9c0f299d79f3f83c61f0bc00364f6a1"
+    },
+    {
+      "bytes": 6027,
+      "path": "src/reproduction/tcm_suite/run_noise_folds.py",
+      "sha256": "b69bbd86b4f6316a9611420ade2129680415ff42dc14d8de8693edc3729af264"
+    },
+    {
+      "bytes": 3003,
+      "path": "src/reproduction/tcm_suite/run_text_condition_queue.py",
+      "sha256": "290e3ff866cb049cf29361521b81b2ef1f8cccf4c0df64c040b18ea1d24467f7"
+    },
+    {
+      "bytes": 11641,
+      "path": "src/reproduction/tcm_suite/run_text_weight_cold_start.py",
+      "sha256": "dd8c48d9c3b483c0c03d151264c01268f1e4c02508e12e17aac75e0cd727a748"
+    },
+    {
+      "bytes": 5848,
+      "path": "src/reproduction/tcm_suite/statistical_test_text_weight.py",
+      "sha256": "5b2b75d92ca13bc675d5c17ee2227d76e7de0b0bb5e77e6927362b364e7b449b"
+    },
+    {
+      "bytes": 6651,
+      "path": "src/reproduction/tcm_suite/summarize_controlled_text_experiment.py",
+      "sha256": "e7196b4e5f5ba61b9b57d072db3c9d3c0c3ba8673ca3f02837eac4ee60ef6a56"
+    },
+    {
+      "bytes": 4858,
+      "path": "src/reproduction/tcm_suite/summarize_text_weight_cold_start.py",
+      "sha256": "8bb294a3f0c2fc8b1c17a8e9bc06159e2e7e242bece18c46c22cc58df22d4042"
+    },
+    {
+      "bytes": 7554,
+      "path": "src/reproduction/tcm_suite/train_shared_text_reducer.py",
+      "sha256": "1338f556373c37498b9811e5dd55525911554d56e1517d2393ad6d68748d0694"
+    },
+    {
+      "bytes": 292,
+      "path": "src/sensitivity_analysis_of_network_layers/README.md",
+      "sha256": "10de1995e629e8af90699f61c9e063aada836e819eb9a8eb9e76cd92005c31b3"
+    },
+    {
+      "bytes": 15415,
+      "path": "src/sensitivity_analysis_of_network_layers/layer_sensitivity.py",
+      "sha256": "aaf979fe6fc2cb3ec4fcf3c922949d35f44a07c152e30d89e34d6802fa6afac8"
+    },
+    {
+      "bytes": 65,
+      "path": "tests/integration/__init__.py",
+      "sha256": "64eb088ef348f7d0b19e3aa6efcbe1ac04f2b8a7576983687a7b74da8abfd66e"
+    },
+    {
+      "bytes": 4112,
+      "path": "tests/integration/test_astra_benchmark_runner.py",
+      "sha256": "0ebf8b67c480689e5fc891471d5c699aeb52f5d2aceb15f812dd6c37efb17ee5"
+    },
+    {
+      "bytes": 5765,
+      "path": "tests/integration/test_benchmark_features.py",
+      "sha256": "2a9c242ffdc614c859ecf9b251d7c199e13c1c2fedd894d596fa7487d1bf777e"
+    },
+    {
+      "bytes": 9308,
+      "path": "tests/integration/test_benchmark_metrics.py",
+      "sha256": "4c287de23c2605e928567e57ae9e07aa76682c9978b4ed0954d21282e9e90461"
+    },
+    {
+      "bytes": 8395,
+      "path": "tests/integration/test_ethnobotany_adapter_confirmation.py",
+      "sha256": "5c3b0da50113b2480f4d8657ea3dfb166d7f2b97323f3b7e5d8430d8028e5b2e"
+    },
+    {
+      "bytes": 10293,
+      "path": "tests/integration/test_ethnobotany_alpha_selection.py",
+      "sha256": "05dcfef367a6f197b106233041407868aa2092848323e45415adb274b32fa4af"
+    },
+    {
+      "bytes": 40196,
+      "path": "tests/integration/test_ethnobotany_feature_bundle.py",
+      "sha256": "f6e1ace3399b34a84072a2a693e240bf6f03ee03a2982311fd99f5b7340f10c6"
+    },
+    {
+      "bytes": 11411,
+      "path": "tests/integration/test_ethnobotany_qwen_semantics.py",
+      "sha256": "88c1ff1b89eeb9ead1ee6f14a620959e9666212111d4d199d3a6ed9a010dac51"
+    },
+    {
+      "bytes": 8662,
+      "path": "tests/integration/test_ethnobotany_refined_feature_receipt.py",
+      "sha256": "1de679739bb9b57c69287b165829fa889ac2d48d2d1200e5997a621cf0fbb4db"
+    },
+    {
+      "bytes": 17010,
+      "path": "tests/integration/test_ethnobotany_refined_runner.py",
+      "sha256": "230b9c3c756127cb485d570dc3c4ed56d5c009b6576fac76c757f244da914642"
+    },
+    {
+      "bytes": 51880,
+      "path": "tests/integration/test_ethnobotany_refined_selection.py",
+      "sha256": "679aa782da462368236fb674ca2fcaeb0f481ea0d86b65edb9df8fb4ff61193e"
+    },
+    {
+      "bytes": 4299,
+      "path": "tests/integration/test_ethnobotany_semantic_adapter_runner.py",
+      "sha256": "0fa2ac9194071f70e109f43394a3ac7b58e83c8a78ad70ad16688e5c47df7b35"
+    },
+    {
+      "bytes": 22796,
+      "path": "tests/integration/test_ethnobotany_semantic_features.py",
+      "sha256": "fe31c53ac735d3fd1bf3135a4afe5d91ddd1f7bd44dd11d11374ce996744e3d3"
+    },
+    {
+      "bytes": 28978,
+      "path": "tests/integration/test_hghda_fair_adapter.py",
+      "sha256": "80705e70b8e9c7546849f27e0053f03c9451e034d623a616ce67970d893e9d60"
+    },
+    {
+      "bytes": 11297,
+      "path": "tests/integration/test_lhgce_budget_selection.py",
+      "sha256": "4d6edafe5b7b030b13d573bdafee48cc00d58ddbae348f7ace5307b1cc1bacb0"
+    },
+    {
+      "bytes": 5656,
+      "path": "tests/integration/test_milgnet_scalable.py",
+      "sha256": "1fe0bf61651a0773e37a288ecf4f06661e6618ba61646af74d0c83d98f7ea1c1"
+    },
+    {
+      "bytes": 15074,
+      "path": "tests/integration/test_smgcl_budget_selection.py",
+      "sha256": "6c6e741945cc5e21368b8b90d478b59bb2c6414d4809b939431e2635e3afcb74"
+    },
+    {
+      "bytes": 10845,
+      "path": "tests/integration/test_tcm_epoch_boundary_decision.py",
+      "sha256": "9fbc82556ade123a3b4ff5c3e14bd45d15cbc3d4132b12747776ff41cc669def"
+    },
+    {
+      "bytes": 10170,
+      "path": "tests/integration/test_tcm_epoch_boundary_plan.py",
+      "sha256": "a83df26692bf9bcd8a42606e32beb60b24d6e713bde3b3ea7cac0e2ab3f58a2d"
+    },
+    {
+      "bytes": 5369,
+      "path": "tests/integration/test_tcm_epoch_boundary_runner.py",
+      "sha256": "04e099e5eeca8b5b070a5beca31f2131983a9ad86b3bfe3ae8862c4bfaf91ebc"
+    },
+    {
+      "bytes": 6459,
+      "path": "tests/integration/test_tcm_feature_bundle.py",
+      "sha256": "e4c80afaa35f839d1881bef3d62f2fc62b241e4162cc43fcee6eb6f2ebeef495"
+    },
+    {
+      "bytes": 21186,
+      "path": "tests/integration/test_tcm_pca64_control.py",
+      "sha256": "bb985ffbee917482d00c7e2d956d3686de687b5801553fdefdeb1f6d63900ca6"
+    },
+    {
+      "bytes": 10841,
+      "path": "tests/integration/test_tcm_pca64_deterministic.py",
+      "sha256": "840922a7c146b5f6181e9e15b5d5ae44cf07d2dada6f4b8cbce8dc65229602ff"
+    },
+    {
+      "bytes": 6524,
+      "path": "tests/integration/test_tcm_semantic_adapter_deterministic.py",
+      "sha256": "bde7c02168c1277dea943626e1d34919b50dbffe293c7ec3b55f22231d23a116"
+    },
+    {
+      "bytes": 3071,
+      "path": "tests/integration/test_tf_graph_seed.py",
+      "sha256": "6f14e4e4399c663274215f24c1c1fcf9f270c140ef3b7ef77bd9d92d32c2b2e6"
+    },
+    {
+      "bytes": 1477,
+      "path": "tests/smoke/test_dry_run.py",
+      "sha256": "091d7939416afd87a5ce59895969913e87d61f1eeb2503079facfeef6cb3c946"
+    },
+    {
+      "bytes": 538,
+      "path": "tests/smoke/test_smoke.py",
+      "sha256": "a63e1925c4b59f127b4e0841f108d05d664a2220adc3425b4fdba299ba9819aa"
+    },
+    {
+      "bytes": 4106,
+      "path": "tests/unit/test_cli.py",
+      "sha256": "5f00c5b9368bb65151d1fd2ed9e172e6ba604bbbf50b0c5451c384585efaa936"
+    },
+    {
+      "bytes": 1401,
+      "path": "tests/unit/test_formal_environment.py",
+      "sha256": "a78fe8ae91b0b1dee5562eae09c34f14eaf424708aa07df8eb3695d2d4d47677"
+    },
+    {
+      "bytes": 4574,
+      "path": "tests/unit/test_process.py",
+      "sha256": "592cc9886250dd30c2beb7d48952e4a2c2ef7f6de0b90b4b31650d8a3001472d"
+    },
+    {
+      "bytes": 2020,
+      "path": "tests/unit/test_public_package.py",
+      "sha256": "90138224797b16cadb1925ef3886f6154f68fa661e0fadbb6af49053d0be6b71"
+    },
+    {
+      "bytes": 1415,
+      "path": "third_party/README.md",
+      "sha256": "5d5479b47ae8058db3c0ae13d5ce76b40f1633d577126fc725d563d2800a6744"
+    },
+    {
+      "bytes": 1945,
+      "path": "third_party/baselines.lock.json",
+      "sha256": "a49dda0092de8dee31774374e07e9581d3b9fb9f5a3ee814a6c498581043caee"
+    },
+    {
+      "bytes": 2236,
+      "path": "third_party/fetch_baselines.sh",
+      "sha256": "bd892f600f05409850e61c4ac8d83c0229697b8b7094e2df6139a9fa2755f2fa"
+    },
+    {
+      "bytes": 1069,
+      "path": "third_party/licenses/BiGI-MIT.txt",
+      "sha256": "1dd110dc3b3a49611bfc85596e283d7b77e92891bb5b834823a8418ebb841da6"
+    },
+    {
+      "bytes": 1063,
+      "path": "third_party/licenses/HGHDA-MIT.txt",
+      "sha256": "6510a47aaaf7bcf7450e321dd8d118d7d2268ff572dd273545b8c1aff3dc89a8"
+    },
+    {
+      "bytes": 817,
+      "path": "tools/README.md",
+      "sha256": "7ae2bf5deeda2f42d22a1f10b8b0bce60572008989d3a3219061b024027ca03d"
+    },
+    {
+      "bytes": 27028,
+      "path": "tools/build_ethnobotany_protein_sequence_set_cache.py",
+      "sha256": "fd841787b402af6d8c2b8898946e06c2f54d6fa13e6a6818e3f753d20efbc3ac"
+    },
+    {
+      "bytes": 7031,
+      "path": "tools/build_source_manifest.py",
+      "sha256": "85838fdf05de0fee3499551dff9a19e7cdba9267648198732c61891209aadba2"
+    },
+    {
+      "bytes": 13604,
+      "path": "tools/kpgt_official_worker.py",
+      "sha256": "666c935004a35e446e6b5f4198706f5476091b3525fa554786a8d829aaf8a98c"
+    },
+    {
+      "bytes": 1815,
+      "path": "tools/prepare_tcm_astra_pca64_deterministic_v2.sh",
+      "sha256": "22d08734aecd9548ee7ed26174da68f0dc86e537729cc18428bf30b4c5da604c"
+    },
+    {
+      "bytes": 5213,
+      "path": "tools/repair_qwen_response_duplicates.py",
+      "sha256": "e7a9136367434e474aea7e51c09848045c291bc44ac6e28d26af1d864ff335d4"
+    }
+  ],
+  "root": ".",
+  "schema_version": 1
+}

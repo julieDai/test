@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "checkout_root": "third_party/checkouts",
+  "sources": {
+    "SMGCL": {
+      "directory": "SMGCL_official",
+      "url": "https://github.com/Jcmorz/SMGCL.git",
+      "branch": "master",
+      "commit": "09fa09795bc610018f906d26bea5b4259233400a",
+      "license_file": null,
+      "citation_doi": "10.1093/bioinformatics/btad357"
+    },
+    "MilGNet": {
+      "directory": "MilGNet_official",
+      "url": "https://github.com/gu-yaowen/MilGNet.git",
+      "branch": "master",
+      "commit": "0149c707e70b039e11ba8c5b88b869aed38e152d",
+      "license_file": null,
+      "citation_doi": "10.1109/BIBM55620.2022.9995152"
+    },
+    "LHGCE": {
+      "directory": "LHGCE_official",
+      "url": "https://github.com/shahinghasemi/LHGCE.git",
+      "branch": "main",
+      "commit": "eeedb4cd6cf64166bd0f8a0ebc2cca96c60874dc",
+      "license_file": null,
+      "citation_doi": "10.1016/j.imu.2023.101177"
+    },
+    "BiGI": {
+      "directory": "BiGI_official",
+      "url": "https://github.com/caojiangxia/BiGI.git",
+      "branch": "master",
+      "commit": "ed54c20523a5b3f295b90a9c08f7c54e8258d04a",
+      "license_file": "LICENSE",
+      "license_spdx": "MIT",
+      "license_sha256": "1dd110dc3b3a49611bfc85596e283d7b77e92891bb5b834823a8418ebb841da6",
+      "citation_doi": "10.1145/3437963.3441783"
+    },
+    "HGHDA": {
+      "directory": "HGHDA_official",
+      "url": "https://github.com/bioxjz/HGHDA.git",
+      "branch": "main",
+      "commit": "c176902f4206f45c2d23bc1c684eeb0c229984cb",
+      "license_file": "LICENSE",
+      "license_spdx": "MIT",
+      "license_sha256": "6510a47aaaf7bcf7450e321dd8d118d7d2268ff572dd273545b8c1aff3dc89a8",
+      "citation_doi": "10.1093/bib/bbae067"
+    }
+  },
+  "redistribution": {
+    "vendored_checkouts": false,
+    "note": "Author repositories are fetched as local dependencies at pinned commits. Only project-maintained adapters and lock metadata are versioned."
+  }
+}

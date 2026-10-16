@@ -1,0 +1,18 @@
+source_repository	source_path	destination_path	strategy	purpose
+astra	src/astra/	src/astra/	compatibility-copy	Frozen protocol, feature, selection, metric, and baseline experiment engine
+astra	src/{ASTRA.py,HGHDA.py,HDR.py,rating.py,main.py,ASTRA.conf,HGHDA.conf,base/,util/}	src/herbhg/models/backends/tcm_suite/	backend-relocation	TCM-suite numerical backend
+astra	src/{ASTRATCMSemanticAdapter.py,ASTRATCMSemanticAdapterDeterministic.py}	src/herbhg/models/backends/tcm_suite/	backend-relocation	TCM-suite semantic-adapter candidates
+astra	src/ethnobotany/{ASTRA.py,ASTRARefined.py,ASTRASemanticRefined.py,HGHDA.py,HDR.py,rating.py,run_training.py,ethnobotany.conf,ethnobotany_feature_paths.py,base/,util/}	src/herbhg/models/backends/ethnobotany/	backend-relocation	Ethnobotany numerical backend
+astra	src/ablation_study/	src/ablation_study/	compatibility-copy	Component-ablation implementations
+astra	src/sensitivity_analysis_of_network_layers/	src/sensitivity_analysis_of_network_layers/	compatibility-copy	Propagation-depth implementation
+astra	src/case_study/	src/case_study/	compatibility-copy	Case-study preparation, training, and ranking
+astra	src/reproduction/tcm_suite/*.py	src/reproduction/tcm_suite/	selected-copy	TCM-suite controlled experiment runners
+astra	configs/prompts/	configs/prompts/	exact-copy	Semantic prompt conditions
+astra	src/ASTRA.conf	configs/models/tcm_suite.conf	path-adapted-copy	Public TCM-suite model configuration
+astra	src/ethnobotany/ethnobotany.conf	configs/models/ethnobotany.conf	path-adapted-copy	Public Ethnobotany model configuration
+astra	configs/experiments/ethnobotany_astra_v2_candidates/	experiments/08_model_selection/ethnobotany_semantic_adapter/configs/refined/	exact-copy	Refined-model candidate configurations
+astra	configs/experiments/ethnobotany_astra_v3_adapter_candidates/	experiments/08_model_selection/ethnobotany_semantic_adapter/configs/	exact-copy	Semantic-adapter candidate configurations
+astra	configs/experiments/ethnobotany_alpha_nested_v1.json	experiments/08_model_selection/ethnobotany_semantic_adapter/alpha_nested_seed42.json	renamed-copy	Nested semantic-fusion configuration
+astra	artifacts/OFFICIAL_BASELINES.lock.json	third_party/baselines.lock.json	path-adapted-copy	Pinned author-code revisions
+astra	artifacts/official_baselines/{BiGI_official,HGHDA_official}/LICENSE	third_party/licenses/{BiGI-MIT,HGHDA-MIT}.txt	exact-copy	Retained upstream license texts
+astra	tools/{build_ethnobotany_protein_sequence_set_cache.py,kpgt_official_worker.py,repair_qwen_response_duplicates.py}	tools/	exact-copy	Feature-generation and response-integrity utilities

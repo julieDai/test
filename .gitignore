@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Environments and editors
+.venv/
+venv/
+.env
+.env.*
+.idea/
+.vscode/
+*.swp
+
+# Local research assets
+/data/
+/artifacts/
+/outputs/
+/local_archive/
+/third_party/checkouts/
+
+# Generated experiment products
+results/*
+!results/reference/
+!results/reference/**
+*.ckpt
+*.ckpt.*
+checkpoint
+events.out.tfevents.*
+*.log
+
+# Operating-system files
+.DS_Store
+Thumbs.db
