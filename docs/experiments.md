@@ -32,5 +32,7 @@ by the same numbered recipe and protocol family.
 
 Outputs should use a run identifier that does not encode performance. Store
 the resolved configuration, protocol digest, source manifest, logs,
-checkpoints, prediction arrays, and metrics below the same run root. Curated
-cross-fold summaries may then be copied to `results/reference/`.
+checkpoints, prediction arrays, and metrics below the same run root. The
+repository versions only the compact snapshot selected by the current
+manuscript under `results/reference/manuscript_current/`; complete and
+superseded runs remain outside version control.

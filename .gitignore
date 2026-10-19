@@ -28,7 +28,10 @@ venv/
 # Generated experiment products
 results/*
 !results/reference/
-!results/reference/**
+results/reference/*
+!results/reference/README.md
+!results/reference/manuscript_current/
+!results/reference/manuscript_current/**
 *.ckpt
 *.ckpt.*
 checkpoint

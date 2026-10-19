@@ -1,0 +1,9 @@
+dataset,layers,auroc_mean,auroc_sd,auprc_mean,auprc_sd,f1_mean,f1_sd,seed,folds,evidence_type,source_path,limitations
+TCM-suite,1,0.9706,,0.9705,,0.9119,,42,5,historical_sensitivity,Graduation_Project/reproduction_results/tcm_suite/summary_20260827/layer_summary.csv,Current manuscript reports means only; blank SD cells are not zero
+TCM-suite,2,0.9923,,0.9925,,0.9584,,42,5,historical_sensitivity,Graduation_Project/reproduction_results/tcm_suite/summary_20260827/layer_summary.csv,Current manuscript reports means only; blank SD cells are not zero
+TCM-suite,3,0.9969,,0.9969,,0.9753,,42,5,historical_sensitivity,Graduation_Project/reproduction_results/tcm_suite/summary_20260827/layer_summary.csv,Current manuscript reports means only; blank SD cells are not zero
+TCM-suite,4,0.9977,,0.9978,,0.9795,,42,5,historical_sensitivity,Graduation_Project/reproduction_results/tcm_suite/summary_20260827/layer_summary.csv,Current manuscript reports means only; blank SD cells are not zero
+TCM-suite,5,0.9980,,0.9980,,0.9808,,42,5,historical_sensitivity,Graduation_Project/reproduction_results/tcm_suite/summary_20260827/layer_summary.csv,Current manuscript reports means only; blank SD cells are not zero
+TCM-suite,6,0.9980,,0.9980,,0.9811,,42,5,historical_sensitivity,Graduation_Project/reproduction_results/tcm_suite/summary_20260827/layer_summary.csv,Current manuscript reports means only; blank SD cells are not zero
+TCM-suite,7,0.9980,,0.9980,,0.9813,,42,5,historical_sensitivity,Graduation_Project/reproduction_results/tcm_suite/summary_20260827/layer_summary.csv,Current manuscript reports means only; blank SD cells are not zero
+TCM-suite,8,0.9981,,0.9980,,0.9817,,42,5,historical_sensitivity,Graduation_Project/reproduction_results/tcm_suite/summary_20260827/layer_summary.csv,Current manuscript reports means only; blank SD cells are not zero

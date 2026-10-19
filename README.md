@@ -141,6 +141,7 @@ cold-start evaluation, semantic controls, case studies, and model selection.
 - [Comparison methods](docs/baselines.md)
 - [Reproducibility](docs/reproducibility.md)
 - [Paper-to-code map](docs/paper_to_code.md)
+- [Current manuscript results](results/reference/manuscript_current/README.md)
 
 ## Reproducibility conventions
 

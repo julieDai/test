@@ -1,0 +1,3 @@
+dataset,herbs,compounds,proteins,diseases,hd_unique,hc_unique,pd_unique,reported_hd_density_percent,evidence_type,source_path,limitations
+TCM-suite,1009,1193,7258,11071,2354225,6496,44170,21.1,frozen_processed_dataset_audit,ASTRA/outputs/fair_protocols/tcm_suite_seed42/manifest.json,Density is reported approximately in the manuscript and relation counts are deduplicated pairs
+Ethnobotany,3038,40888,355,909,16117,121227,94364,0.58,frozen_processed_dataset_audit,ASTRA/outputs/fair_protocols/ethnobotany_seed42_cpfix_20261007/manifest.json,Density is reported approximately in the manuscript and relation counts are deduplicated pairs; C-P edges are not used by the HerbHG forward computation

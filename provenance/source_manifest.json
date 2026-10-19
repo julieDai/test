@@ -1,11 +1,11 @@
 {
   "algorithm": "sha256",
-  "file_count": 295,
+  "file_count": 309,
   "files": [
     {
-      "bytes": 451,
+      "bytes": 558,
       "path": ".gitignore",
-      "sha256": "b77ab9a48aa62293565ba6a80d1aca72d0c7d05d8974a4b2f0ff673607f5eee8"
+      "sha256": "b524c5efee2675102a3ff80fbd6397309285017c5f2d61c61fd237034de27b62"
     },
     {
       "bytes": 410,
@@ -18,9 +18,9 @@
       "sha256": "256bbc3ed9cf706a5ad42d70f5c7e87d527ab06cefd1fbbd286bf7930c89cb16"
     },
     {
-      "bytes": 4904,
+      "bytes": 4983,
       "path": "README.md",
-      "sha256": "af0df0da9f337c4af68f187bd8310292217678da349234bc1cefdcc73a540138"
+      "sha256": "916494afbb3842ad3149c2eed2011b8aae4a9466d6c686c80acabfa9ac52f7b9"
     },
     {
       "bytes": 916,
@@ -88,9 +88,9 @@
       "sha256": "ee69a3aa23d809589f62fe626cbc069fafbaf8528453763194e8f9afbb6957ed"
     },
     {
-      "bytes": 2243,
+      "bytes": 2269,
       "path": "docs/architecture.md",
-      "sha256": "778ed6a3f79928a80f6fc5c0b8dd41e3152b7c7900e90295ea732b147266d9ae"
+      "sha256": "68b10fef7e5e146549df6ba9296b69d174673ed230522d9eab17e4ab9d408ba5"
     },
     {
       "bytes": 1646,
@@ -103,14 +103,14 @@
       "sha256": "a91eaf9d0029869a310085ba0a464aa6b1bbea1b9480f856ebc25b10f8612421"
     },
     {
-      "bytes": 2112,
+      "bytes": 2232,
       "path": "docs/experiments.md",
-      "sha256": "a03428048705846ee28b9f6db9c9f671077348e7ba63a6a6088d9e98741de734"
+      "sha256": "475fc679276c272247d80773067de2a86d3bcaeb8e39e44fed71dcd8b6e95590"
     },
     {
-      "bytes": 1517,
+      "bytes": 1598,
       "path": "docs/paper_to_code.md",
-      "sha256": "c89faa28b6279a41c734163ed1d3887407e7e3c5291152af603ac561944cdbe1"
+      "sha256": "9ed8be6aa14b49603e830ee7c161ddb479213437746d53239fbb6dc5a90a1712"
     },
     {
       "bytes": 2956,
@@ -363,9 +363,79 @@
       "sha256": "2458919d2f019036f10a23dd226844de65b72749b9d1412c5958439478f3f57c"
     },
     {
-      "bytes": 764,
+      "bytes": 726,
       "path": "results/reference/README.md",
-      "sha256": "8ccf553627d449e3eb2cf6feae04b5eff1a42dbbc9d8f03bd9ac9330693e2a98"
+      "sha256": "c99ef97431e8eae824b9225ee4abcc8c4f3a56bd067a78a5b2e2e8a4dacb063d"
+    },
+    {
+      "bytes": 3576,
+      "path": "results/reference/manuscript_current/README.md",
+      "sha256": "475af8edb0d585013cc4ef8a4b95958fa9d35a09cda42fe3593dd7e846ebb8c2"
+    },
+    {
+      "bytes": 842,
+      "path": "results/reference/manuscript_current/case_study.csv",
+      "sha256": "fa81048d8e8b66d495831f5ea1dc52baaf99880f458d86566f9d46e6bf828ebf"
+    },
+    {
+      "bytes": 2129,
+      "path": "results/reference/manuscript_current/cold_start.csv",
+      "sha256": "39d67a837985f19132a791d77560fa09db6c0447bc4f2fe0fdeaa6f3f138bce3"
+    },
+    {
+      "bytes": 2251,
+      "path": "results/reference/manuscript_current/component_ablation.csv",
+      "sha256": "7225a7d0fc6f08a07c12502f4d1093da45ef6acc3cdb419e8e7dcaeafae8ff2d"
+    },
+    {
+      "bytes": 695,
+      "path": "results/reference/manuscript_current/dataset_statistics.csv",
+      "sha256": "f0b4e9891644fafaf8b68714300f19d086aa21b33ce5e73eca4302034e50163a"
+    },
+    {
+      "bytes": 809,
+      "path": "results/reference/manuscript_current/ethnobotany_adapter_confirmation_seed43.csv",
+      "sha256": "ba4f534257d0701eea89bf5707ab2e8dcde915144e71a5532149761610159260"
+    },
+    {
+      "bytes": 6495,
+      "path": "results/reference/manuscript_current/main_comparison.csv",
+      "sha256": "2f83ae4510b11b0ae77f101cbe5e7d90c327c57ad538a762a8f6a3cfed920eb2"
+    },
+    {
+      "bytes": 1846,
+      "path": "results/reference/manuscript_current/propagation_depth.csv",
+      "sha256": "e88a4459da4643a9869b1484303e973d12374a02f6ec56c1a4140d100b54ed76"
+    },
+    {
+      "bytes": 17276,
+      "path": "results/reference/manuscript_current/provenance.json",
+      "sha256": "3d2a89650c9a2e922462469e2a3bffa11e1f0551d500de76564a1aabd80f6ac7"
+    },
+    {
+      "bytes": 3553,
+      "path": "results/reference/manuscript_current/relation_perturbation.csv",
+      "sha256": "829343401ad74bcf58fb33f93795c4892e5820b2fa4580b7a36e023395d7d904"
+    },
+    {
+      "bytes": 1587,
+      "path": "results/reference/manuscript_current/reported_comparisons.csv",
+      "sha256": "e17d744de161e260394bcce094a883d57ed11689fc521d7ce7a830cc152a26c8"
+    },
+    {
+      "bytes": 8131,
+      "path": "results/reference/manuscript_current/semantic_control_tests.csv",
+      "sha256": "66baaae6616b98787311e5277533509e45ea92590b8cffee83cf55d476f1ab20"
+    },
+    {
+      "bytes": 3073,
+      "path": "results/reference/manuscript_current/semantic_controls.csv",
+      "sha256": "5823f17cb3720eabe776e1bf6fae60c6f3f2f7ce9fd662304e8dd4b6e7d0e153"
+    },
+    {
+      "bytes": 2379,
+      "path": "results/reference/manuscript_current/semantic_fusion.csv",
+      "sha256": "7cf24c3897c328f30cde195ee354d9ca3a298194f30592c02016085962b7cf25"
     },
     {
       "bytes": 884,

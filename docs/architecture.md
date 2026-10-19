@@ -14,7 +14,7 @@ and externally maintained comparison methods.
 | Configuration | `configs/` | Model, protocol, and semantic-prompt configuration |
 | External methods | `third_party/` | Commit lock, fetch utility, and retained license texts |
 | Runtime state | `data/`, `artifacts/`, `outputs/` | Inputs, derived assets, checkpoints, predictions, and logs |
-| Curated results | `results/reference/` | Compact, versioned summaries and provenance records |
+| Curated results | `results/reference/manuscript_current/` | Single compact snapshot selected by the current manuscript |
 
 ## Backend isolation
 

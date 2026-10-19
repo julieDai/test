@@ -21,4 +21,5 @@
 | Semantic controls | `experiments/06_semantic_controls/` |
 | Case study | `experiments/07_case_study/` |
 | Model-selection experiments | `experiments/08_model_selection/` |
+| Current manuscript result snapshot | `results/reference/manuscript_current/` |
 | Source identity and migration provenance | `provenance/` |

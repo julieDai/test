@@ -1,21 +1,16 @@
 # Reference results
 
-This directory contains compact, versioned result summaries selected from
-completed HerbHG experiments. Large checkpoints, prediction tensors, feature
-matrices, and logs remain under `outputs/` or external artifact storage.
+The repository versions one compact experimental-results snapshot:
 
-A reference result directory should contain:
+- [`manuscript_current/`](manuscript_current/) contains the values used by the
+  current HerbHG manuscript, identified by the manuscript SHA-256 digest in
+  its provenance record.
 
-```text
-<experiment>/<dataset>/<run_id>/
-├── protocol.json
-├── configuration.json
-├── metrics.json
-├── cross_fold_summary.json
-└── provenance.json
-```
+The snapshot preserves manuscript-facing tables and the compact evidence
+needed to identify their source runs. Candidate sweeps and superseded result
+sets are intentionally excluded. Large checkpoints, predictions, feature
+matrices, and logs remain outside version control under `outputs/`,
+`artifacts/`, or archival storage.
 
-`provenance.json` should record the source commit or source-manifest digest,
-the central protocol digest, feature-bundle digests, and any pinned external
-implementation commits. Reported cross-fold values must be derivable from the
-per-fold metric artifacts retained with the complete run.
+Model and protocol configurations elsewhere in the repository are executable
+research inputs rather than additional result sets.
